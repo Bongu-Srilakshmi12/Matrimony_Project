@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-detail-container{
+    width: 100%;
+    /* height: 400px; */
+    background-color: white;
+    color: black;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    box-shadow: 0px 0px 4px 0px rgb(141, 124, 124);
+    margin-bottom: 15px;
+}
+.profile-detail-container .image-profile img{
+    /* background-image: url('../../public/images/unknown-person.jpg'); */
+    width: 120px;
+    height: 120px;
+    background-size: contain;
+    border: 1px solid gray;
+}
+.image-profile  p{
+    background-color: #f1f1f1;
+    color: #0274CB;
+    font-size: 12px;
+    width: 120px;
+    padding: 8px 10px 8px 10px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+.grid-column2 h4{
+    font-size: 24px;
+    font-family: 'Lato';
+}
+.grid-column2 p{
+    font-family: 'Lato';
+}
+.grid-column2 #p1{
+    color: gray;
+}
+.grid-column2 #p2,#p3,#p4,#p5{
+    margin: 8px 0px 10px 0px;
+}
+.grid-column2 p .icons-grid2{
+    color: green;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.grid-column2 p #edit{
+    color: #0274CB;
+}
+.grid-column3 p{
+    margin: 25px 0px 10px 0px;
+    text-align: center;
+    color: gray;
+}
+.grid-column3 button{
+    background: transparent;
+    border: 1px solid gray;
+    padding: 5px;
+    width: 100%;
+    font-size: 15px;
+    color: #0274CB;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 8px;
+}
+.grid-column3 .eye-icon{
+    font-size: 18px;
+    margin-right: 3px;
+    vertical-align: middle;
+}

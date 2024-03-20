@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.MatchComp-container{
+    margin: 100px 0px 0px 50px;
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 25px;
+}
+.MatchComp-container span{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--bmcolor-text-black);
+}
+.MatchComp-container span:hover{
+    color: rgb(30, 150, 30);
+    font-weight: 600 !important;
+    border-bottom: 2px solid green;
+    font-size: 17px;
+}

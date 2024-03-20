@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.photos-container{
+    width: 100%;
+    background-color:rgb(86, 124, 189);
+    color: #fff;
+    padding: 20px;
+    height: 200px;
+}
+#skip-btn{
+    background-color: transparent;
+    color: white;
+    padding: 2px 4px 2px 4px;
+    text-decoration: none;
+    border: 1px solid #4063a0;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#upload-btn{
+    background-color: #f58320;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    text-decoration: none;
+    border: 1px solid #cccccc;
+    font-weight: 600;
+    border-radius: 5px;
+}

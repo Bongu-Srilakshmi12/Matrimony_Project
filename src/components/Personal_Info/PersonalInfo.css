@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.PersonalInfo-container{
+        width: 100%;
+        background-color: #f1f1f1;;
+        /* background-color:#fff; */
+        color: black;
+        margin-top: 20px;
+        font-family: 'Lato';
+}
+.PersonalInfo-container h2{
+    text-align: left;
+    color: #44A54D;
+    margin-bottom: 15px;
+    font-size: 28px;
+    line-height: 37px;
+    font-weight: 500;
+}
+.PersonalInfo-container .personal{
+    width: 100%;
+    border: 1px solid #dadada;
+    background: #ffffff;
+    padding: 18px 25px 15px 25px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.personal .personal-top{
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 24px;
+    font-weight: 500;
+    color: gray;
+}
+.edit-btn{
+    background-color: #4063a0;
+    color: white;
+    padding: 2px 4px 2px 4px;
+    text-decoration: none;
+    border: 1px solid #4063a0;
+    font-weight: 400;
+}
+.about-bottom{
+    padding: 5px 0px 0px 0px;
+}
+#badge-btn{
+    background-color: #f58320;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    text-decoration: none;
+    border: 1px solid #cccccc;
+    font-weight: 600;
+    border-radius: 5px;
+}
+hr{
+    color: gray;
+}
+.info-container{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding: 10px;
+}

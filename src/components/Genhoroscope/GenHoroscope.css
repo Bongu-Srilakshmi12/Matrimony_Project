@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.genHoroScope-container{
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+    height: 100vh;
+}
+.mul-btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+.mul-btns .rel-horo span{
+    background-color: #f1f1f1;
+    color: gray;
+    padding: 10px 14px 13px 14px;
+    margin: 8px;
+    font-weight: 600;
+}
+.mul-btns .rel-horo span:first-child{
+    background-color: #ffffff;
+    color: green;
+    border: 1px solid #dadada;
+    box-shadow: 4px 0 4px rgba(0, 0, 0, 0.5);
+}
+.edit-prof span{
+    color: blue;
+    /* margin: 10px 14px 20px 14px; */
+}
+.horo-border-box{
+    border: 1px solid #d1d1d1;
+    /* height: 100vh; */
+}
+.horoscope-btm{
+    width: 100%;
+    /* border: 1px solid #d1d1d1; */
+    padding: 40px 20px 30px 30px;
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    height: 100%;
+
+}
+.horoscope-left h4{
+    line-height: 26px;
+    font-size: 19px;
+    font-weight: 700;
+}
+.horoscope-left p{
+    color: #666666;
+    text-align: justify;
+    line-height: 18px;
+    font-size: 13px;
+    width: 350px;
+}
+.horo-left-mid .horo-icon{
+    font-size: 36px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #d1d1d1;
+    border-radius: 50%;
+    padding: 6px;
+    margin: 5px 10px 10px 5px;
+}
+.horo-left-mid span{
+    text-align: justify;
+}
+.form-container{
+    background: #f1f1f1;
+    color: black;
+    width: 80%;
+    padding: 40px 30px 60px 30px;
+}
+.form-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 0 20px;
+
+}
+.form-box .column{
+    width: calc(50% - 10px);
+}
+.form-box label{
+    font-weight: 700;
+    font-size: 13px;
+    /* font-family: 'Lato'; */
+}
+.form-box .column .time{
+    width: 30%;
+    height: 38px;
+    background: #ffffff;
+    color: #777;
+    border: 1px solid #e0e0e0;
+    vertical-align: middle;
+}
+.form-box .column .AM-PM{
+    height: 38px;
+    background: #ffffff;
+    color: #777;
+    border: 1px solid #e0e0e0;
+    vertical-align: middle;
+}
+.form-box .fields{
+    width: 100%;
+    height: 38px;
+    background: #ffffff;
+    color: #777;
+    border: 1px solid #e0e0e0;
+    vertical-align: middle;
+}
+form{
+    position: relative;
+}
+#generate-btn{
+    text-align: right;
+    background-color: #ff7805;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    text-decoration: none;
+    border: 1px solid #cccccc;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 10px 40px 0px 0px;
+    position: absolute;
+    right: 0;
+}
+.below-line{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='1' viewBox='0 0 100 1'%3E%3Cpath d='M0 0h50v1H0V0zm50 0h50v1H50V0z' fill='%23000'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-size: 100% 1px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.dot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0 20px; /* Adjust as needed */
+  }
+
+  .dots {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 17px;
+  }
+
+  .dots::before,
+  .dots::after {
+    content: '..................................................................................................................';
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  .horo-bot{
+    width: 100%;
+    padding: 40px 20px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: justify;
+    column-gap: 10px;
+  }
+  .horo-bot h4{
+    /* line-height: 26px; */
+    font-size: 17px;
+    font-weight: 700;
+    padding: 10px;
+  }
+  input[type=file]{
+    border: 1px solid #dbdbdb;
+    padding: 2px 5px 8px 2px;
+    width: 250px;
+    margin-right: 20px;
+    font-size: 12px;
+  }
+#upload-btn{
+    background-color: #ff7805;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+}
+.horo-bot .gif{
+    font-size: 12px;
+    color: #666666;
+}
+.settings-form{
+    background: #f1f1f1;
+    color: black;
+    width: 100%;
+    padding: 40px 30px 60px 30px;
+}
+
+/* Horoscope Settings */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Lato', sans-serif; 
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+}
+
+label {
+    width: 200px; 
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif; 
+}
+
+.input-field {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 8px;
+    flex: 1;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
