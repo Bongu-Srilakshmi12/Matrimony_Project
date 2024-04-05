@@ -1,0 +1,528 @@
+/* Success Stories */
+.success-stories-container{
+    margin-top: 100px;
+}
+.stories {
+    padding: 10px;
+}
+
+.top-cards {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.featured-couple {
+    background-color: #efeeee;
+    width: 360px;
+    float: left;
+    padding: 10px;
+}
+
+.couple-heading {
+    float: left;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.featured-couple-image {
+    width: 333px;
+    height: 221px;
+}
+
+.details {
+    text-align: left;
+    width: 333px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 18px;
+}
+
+.id-date {
+    color: #0274cb;
+    text-decoration: none;
+    text-align: center;
+}
+
+.couples-names {
+    float: left;
+    text-align: center;
+    line-height: 18px;
+}
+
+.readmore {
+    color: #0274cb;
+    float: right;
+    padding: 6px;
+    background: #ffff;
+    border: 1px solid #e4e4e4;
+    border-radius: 6px 
+
+}
+
+.right-cards {
+    width: 450px;
+    margin: 0px 0px 0px 27px;
+    float: left;
+    
+}
+
+.cards {
+    float: left;
+    width: 180px;
+    height: 200px;
+    margin-left: 10px;
+    border: 1px solid #0000;
+}
+
+.cards img {
+    width: 151px;
+    height: 96px;
+    padding: 3px;
+    border-style: solid;
+
+
+}
+
+.card-details {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 11px;
+    text-align: left;
+}
+
+.card-details a {
+    color: #0274cb;
+    text-decoration: none;
+}
+
+.card-readmore {
+    color: #0274cb;
+    float: right;
+    padding: 3px;
+    background: #ffff;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px;
+    font-size: 11px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.bottom-card {
+    padding-right: 20px;
+    width: 800px;
+    margin: 0px 0px 0px 27px;
+    float: left;
+}
+
+/* Post Your Success story */
+
+.story-description {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: bold;
+    color:#969696;
+}
+
+.dotted {
+    border-bottom: dotted;
+    width: 1000px;
+    border-bottom-color: #cecece;
+}
+
+.story-form {
+    width: 694px;
+    font-family:Lato;
+    font-size: 12px;
+    color: #666;
+    padding-left: 15px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.form-content {
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-information {
+    display: flex;
+}
+
+.label {
+    display: block;
+    width: 250px;
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+
+.star {
+    color: #FE7C22;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.textfield {
+    width: 210px;
+    height: 25px;
+    border-top: 1px solid #c1c1c1;
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    background: #ffff;
+    color: #666;
+    font-family: Lato;
+    padding: 2px 0px 0px 5px;
+    vertical-align: middle;
+    text-align: start;
+    cursor: text;
+    display: inline-block;
+    letter-spacing: normal;
+    word-spacing: normal;
+    margin-top: 12px;
+}
+
+.select-box {
+    width: 60px;
+    height: 22px;
+    border-top: 1px solid #c1c1c1;
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    background: #ffff;
+    color: #666;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 1px 1px 2px 5px; 
+    vertical-align: middle; 
+    margin-top: 12px;
+    margin-left: 5px;  
+}
+
+.choose-photos{
+    padding-bottom: 6px;
+    
+}
+
+.addmore {
+    color: #0274cb;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;    
+}
+
+.address {
+    width: 210px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.country {
+    width: 210px;
+    height: 22px;
+    border-top: 1px solid #c1c1c1;
+    border-left: 1px solid #c1c1c1;
+    border-right: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+    background: #ffff;
+    color: #666;
+    font-family: Lato;
+    font-size: 12px;
+    padding: 1px 1px 2px 5px; 
+    vertical-align: middle; 
+    margin-top: 12px;
+    margin-left: 5px;  
+}
+
+.share-facebook {
+    position: relative;
+    margin-left: 250px;
+    margin-top: 9px;
+}
+.facebook-link {
+    text-decoration: none;
+    font-size: 12px;
+    color: #3a5997;
+    font-weight: bold;
+}
+
+.checkboxs-success {
+    position: absolute;
+    width: 20px;
+    /* margin-right: 15px; */
+    /* margin: 5px; */
+    margin-top: 15px;
+
+}
+
+.checkbox-description {
+    font-size: 12px;
+    color: #666;
+    font-family: Lato;
+    margin-left: 20px;
+    
+}
+
+.fa-brands.fa-square-facebook {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.primary-button {
+    margin-left: 250px;
+    padding: 10px;
+}
+
+.primary-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 2px solid #FFF;
+    border-radius: 3px;
+    background: #ff7805;
+    color: #FFF !important;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    vertical-align: middle;
+    /* padding: 6px 12px; */
+    box-shadow: 0 0 2px 2px #E9E9E9
+}
+
+
+.dotteds{
+    position: absolute;
+    border-bottom: dotted;
+    width: 1000px;
+    left:10px;
+   padding-top: 50px ;
+    border-bottom-color: #cecece;
+}
+.success-story-content {
+    width: 900px;
+    padding-top: 30px;
+    text-align: left;
+    padding-left: 50px;
+    font-family: Lato;
+}
+
+.topics {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    line-height: 20px;
+    
+    font-family: Lato;
+}
+
+.topics-descriptions {
+    line-height: 16px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    
+    /* padding-bottom: 60px; */
+    display: flex;
+   
+}
+
+.topics-content {
+    width: 520px;
+    display: list-item;
+    text-align: left;
+   
+    font-size: small;
+    line-height: 16px;
+    float: left;
+    
+    color: #363636;
+    list-style-type:disc;
+}
+
+/* Tinies */
+
+.baby-gallery {   
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    background: #5BBC56;
+    background-size: cover;
+    height: auto;
+}
+
+.baby-top-content {
+    width: 700px;
+    height: auto;
+}
+
+.favorite-family {
+    position: relative;
+    width: 260px;
+    height: 200px;
+    border: 1px solid #363636;
+    background-color: #ffff;
+    margin-left: 750px;
+    margin-bottom: 30px;
+}
+
+.favorite-family img {
+    width: 240px;
+    height: 160px;
+    padding-left: 13px;
+    padding-top: 10px;
+}
+
+.family-names {
+    width: 190px;
+    padding-left: 13px;
+    color: #0274cb;
+    font-family: Lato;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.white-background {
+    width: 1000px;
+    height: auto;
+    background: #ffff;
+    background-size: cover;
+    margin-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.family-text {
+    color: #363636;
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    font-family: Lato;
+}
+
+.family-text b {
+    color: #363636;
+    font-size: 12px;
+    font-family: Lato;
+    font-weight: bold;
+}
+
+.hand-plant img {
+    width: 160px;
+    height: 150px;
+    border-style: solid;
+}
+.plant-data {
+    display: flex;
+}
+
+.plant-content p {
+    width: 700px;
+    padding: 10px;
+    text-align: left;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.gallery {
+    width: 350px;
+    text-align: left;
+}
+
+.gallery h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #363636;
+    padding-left: 10px;
+}
+
+.bottom-part {
+    display: flex;
+    margin-left: 40px;
+}
+
+.left-gallery {
+    /* display: flex; */
+    width: 380px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.left-images-row1 {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.left-images {
+    width: 200px;
+    height: 148px;
+    margin: 10px;
+}
+
+.baby-birth {
+    color: #0274cb;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.baby-birth img {
+    width: 150px;
+    height: 100px;
+}
+
+.baby-birth span {
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.date-birth {
+    color: #363636;
+}
+
+.fa-solid.fa-cake-candles {
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.upload-photo {
+    width: 500px;
+    font-family: Lato;
+    font-size: 12px;
+    color: #666;
+    /* background-color: #efeeee; */
+    padding-left: 15px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.upload-photo h1 {
+    padding-left: 60px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cecece;
+}
+
+.photo-upload {
+    margin-top: 10px;
+}
+
+.fa-solid.fa-photo-film {
+    font-size: 40px;
+    padding-right: 20px;
+    color: #ea91d2;
+}

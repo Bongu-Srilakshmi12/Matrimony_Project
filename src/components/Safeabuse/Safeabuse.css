@@ -1,0 +1,129 @@
+/* Safeabuse.css */
+.Safe-abuse{
+    margin: 30px 10px;
+    border: 1px solid black;
+    height: auto;
+    width: 100%;
+    float: left;
+
+}
+.safe-header {
+       margin-top: 20px;
+      
+}
+
+.safe-header p{
+    float:left;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: Lato;
+   
+   
+}
+.labels-abuse-report{
+    float: left;
+    
+}
+
+.column-abuse{
+ text-align: center;
+ 
+
+ font-size: 22px;
+ margin-left: 30px;
+ 
+ margin-top: 30px;  
+ font-family: Lato;
+}
+.column-right{
+    float: right;
+    text-align: right;
+    padding-left: 250px;
+    color: red;
+    padding-top: 5px;
+    font-family: Lato;
+}
+.forms-safe-container{
+    margin-top: 20px;
+    float: left;
+    
+}
+.forms-safe-container label{
+    
+    padding-left: 40px;
+    font-family: Lato;
+}
+
+.safe-stars{
+    padding-top: 40px;
+    align-items: center;
+    color: red;
+    
+}
+.stars{
+    text-align: center;
+}
+.input-fields{
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+
+.checkboxs-safes{
+    
+    
+    float: left;
+    text-align: left;
+    
+    right: 0;
+    left: 0;
+    font-family: Lato;
+   
+}
+.check-box-check{
+    float: left;
+    
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.type-text-abuse{
+    padding-top: 5px;
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    flex-direction: column;
+    
+}
+.safe-stars-s{
+    padding-top: 40px;
+    align-items: center;
+    color: red;
+    margin-left: 40px;
+}
+.safe-abuse-button{
+    background-color: #FFBD76;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    margin-left: 40px;
+    font-weight: bold;
+    padding: 3px 6px;
+    box-shadow: 0 0 2px 2px #E9E9E9
+    
+}
+.home-footer{
+    background: #f1f1f1;
+    margin: 0 auto ;
+    width: 100%;
+    
+   
+    
+    
+  }
+  .home-footer p{
+    float: left;
+    margin-left: 30px;
+    padding-bottom: 20px;
+  }

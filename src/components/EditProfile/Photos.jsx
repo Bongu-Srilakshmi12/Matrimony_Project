@@ -1,5 +1,6 @@
 import React from 'react';
 import './Photos.css';
+import { Link } from 'react-router-dom';
 
 function Photos() {
   return (
@@ -8,7 +9,7 @@ function Photos() {
       <p>Add Shruthi Gaddam photo and get 10 times more responses!</p>
       <div>
         <button id='skip-btn'>Skip</button>
-        <button id='upload-btn'>Upload Photos Now</button>
+        <Link to='uploads'><button id='upload-btn'>Upload Photos Now</button></Link>
       </div>
     </div>
   )

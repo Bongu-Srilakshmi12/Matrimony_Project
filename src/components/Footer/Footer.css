@@ -1,0 +1,129 @@
+/* Footer.css */
+.footer {
+    background-color: white;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 1500px;
+    margin: 0 auto;
+    font-family: Lato;
+    margin-top: auto;
+    height: 100%;
+  }
+  
+  .footer-section,
+  .second_column,
+  .Information,
+  .Related_Matrimony_Services {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+  }
+  
+  .About_Us {
+    margin-bottom: 20px;
+    flex: 1;
+    min-width: 200px;
+    margin-right: 0px;
+   
+  
+  }
+  
+  .About_Us p {
+    line-height: 1.7; 
+    margin-bottom: 1rem; 
+    color: grey;
+    text-align: unset;
+  }
+  
+  .second_column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  
+  
+  .footer h3 {
+    font-size: 18px;
+    color: #090909;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+  .Help-and-Support ul, li,
+  .Our-Other-services ul, li, 
+  .Social-Initiatives ul, li, 
+  .Our-Wedding-Services ul, li,
+  .Information ul, li,
+  .Related_Matrimony_Services ul, li{
+    list-style-type: none;
+    align-items: flex-start;
+    text-align: left; 
+    padding-left: 0;
+    margin-bottom: 20px;
+    color: grey;
+    
+  }
+  
+  
+  .footer-section a,
+  .social-icons a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover,
+  .social-icons a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .footer-disclaimer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    
+  }
+  
+  .footer-disclaimer {
+    text-align: left;
+    font-size: 18px;
+     
+  
+  }
+  
+  .footer-disclaimer-container p {
+  color: grey;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: flex-start; 
+    padding-left: 0;
+    padding-top: 20px;
+    font-size: 24px;
+    
+  
+  }
+  
+  .social-icons a {
+    margin-right: 20px; 
+  }
+  
+  .logo_about {
+    width: 40px; 
+    height: auto; 
+    margin-right: 15px;
+  }
+  
+  .about-logo {
+    display: flex;
+    
+  }
+  
+  

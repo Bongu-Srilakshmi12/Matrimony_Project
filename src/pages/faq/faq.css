@@ -1,0 +1,125 @@
+.faq-container {
+    max-width: fit-content; 
+    /* margin: 0 ; */
+    padding: 20px;
+    box-sizing: border-box;
+    width: 1400px;
+    /* margin: 0 auto; */
+    font-family: Lato;
+    margin-top: 130px;
+  }
+  
+  .faq-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: black; 
+    margin-bottom: 10px;
+    border-bottom: #666 1px solid;
+    padding-bottom: 10px;
+  }
+  
+  .faq-description {
+    font-size: 20px;
+    color: #666; 
+    line-height: 2;
+  }
+  
+  .faq-email {
+    color: #0EA2E1;
+    text-decoration: none;
+  }
+  
+  .faq-email:hover {
+    text-decoration: underline;
+  }
+
+  .line1 {
+    font-size: 20px;
+    color: #080808;
+  }
+
+  .heading {
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    padding-bottom: 20px;
+    border-bottom: black 1px dotted;
+    margin-bottom: 20px;
+    max-width: unset;
+}
+  .Question {
+    font-weight: bold;
+  }
+  .Answer{
+    padding-bottom: 20px;
+  }
+  .registration{
+    font-weight: bold;
+  }
+
+  .faq-container1 {
+    max-width: 45%;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .faq-container2 {
+    max-width: 45%;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .faq-container1, .faq-container2 {
+
+    flex:1;
+    flex-direction: column;
+
+  }
+
+  .column_container {
+    display: flex;
+    justify-content: space-evenly ;
+    
+  }
+
+  .gold-package-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+  }
+
+  .gold-package-table th,
+  .gold-package-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .gold-package-table th {
+    background-color: #E6E5C5; 
+  }
+
+  .gold-package-table th,
+  .gold-package-table td {
+    border: 1px solid #ddd;
+    font-size: 13px;
+  }
+
+  .gold-package-table th {
+    color: #966D42 ;
+  }
+
+  .memberships h4 {
+    border-bottom: #a6a5a5 1px dashed;
+    padding-bottom: 4px;
+  }
+  
+  .memberships span {
+    font-size: 14px;
+  }
+
+  .memberships p {
+    font-size: 11px;
+    text-align: right;
+    margin-bottom: 0px;
+  }

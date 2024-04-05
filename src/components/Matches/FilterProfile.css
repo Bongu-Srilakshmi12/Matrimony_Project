@@ -1,0 +1,65 @@
+/* FilterProfile.css */
+
+/* .filter-profile-container{
+    position: fixed;
+    
+    bottom: auto;
+    width: 3fr;
+
+} */
+.accordion-details{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c4c4c4;
+    margin: 5px 0px 15px 0px;
+}
+.accordion-details span{
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+}
+.accordion-details .accordion-edit{
+    color: gray;
+    cursor: pointer;
+}
+.accordion-viewmore{
+    color: orange;
+    font-size: 12px;
+    cursor: pointer;
+}
+.accordion-details .accordion-lock{
+    color: orange;
+    cursor: pointer;
+    font-size: 11px;
+}
+.active-profiles button{
+    padding: 4px 4px 4px 4px;
+    background: transparent;
+    border-radius: 5px;
+    margin: 5px;
+}
+.sort-profiles{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px 15px 0px;
+}
+.sort-profiles span{
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+}
+input[type='radio']{
+    color:orange;
+}
+#apply-btn{
+    background-color: #f58320;
+    color: white;
+    padding: 4px 8px 4px 8px;
+    text-decoration: none;
+    border: 1px solid #cccccc;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 30px;
+}

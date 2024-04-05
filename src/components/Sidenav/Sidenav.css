@@ -1,0 +1,180 @@
+.sidenav{
+    margin-top: 60px;
+    float: left;
+    border: 1px solid gray;
+    height: 300px;
+    width: 20%;
+    margin-left: 50px;
+    border-radius: 5px;
+
+
+}
+
+
+
+.main-content{
+    display: block;
+    text-align: center;
+  
+   float: left;
+   margin-left: 450px;
+   margin-top: 140px;
+
+    
+}
+.paragraph{
+    margin-right: 280px;
+    
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.main-butons{
+    margin-top: 20px;
+    
+}
+#d-11{
+   float: left;
+   margin-left: 40px;
+   border: 1px solid gray;
+   border-radius: 30px;
+   height: 30px;
+   width: 220px;
+   font-size: 13px;
+}
+#d-2-2{
+    float: left;
+    margin-left: 20px;
+    border: 1px solid gray;
+    border-radius: 30px;
+   
+    height: 30px;
+    width: 180px;
+    font-size: 13px;
+}
+.mailbox-content-link a{
+    text-decoration: none;
+    color: #000;
+}
+.images{
+    margin-top: 80px;
+    border: 1px solid gray;
+    display: flex;
+    width: 800px;
+    height: 300px;
+    margin-left: 40px;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+}
+.img-avathar{
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 16px;
+    display: flex;
+}
+.img-avathar img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    
+}
+#id1{
+    font-size: 13px;
+    
+    margin-right:300px;
+    color: blue;
+    font-weight: bold;
+    
+}
+#id2{
+    float:right;
+  text-align: center;
+   margin-left: 120px;
+    
+    color: black;
+    padding-bottom: 20px;
+    
+}
+.img-name{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 20px;
+    display: flex;
+    
+   
+}
+.id-num{
+    margin-right: 310px;
+    
+}
+.person-age {
+    display: flex
+}
+
+ span li{
+   display: inline;
+   
+}
+.age {
+    margin-right:80px;
+    
+}
+ .list li{
+    padding: 10px;
+    
+}
+ul{
+    padding: 10px;
+}
+.city li{
+    padding: 10px;
+    
+    
+}
+.city{
+    margin-top: -30px;
+}
+.city-area{
+    margin-right: 50px;
+    
+}
+ .divs-button{
+    margin-top: 220px;
+    display: flex;
+    position:absolute;
+    padding: 10px;
+    
+    
+    
+ }
+#decline{
+    float: left;
+    
+    margin-left: 280px;
+    
+    padding: 10px;
+    border: 1px solid grey;
+    font-size: 18px;
+    border-radius: 30px;
+    height: 45px;
+    width: 100px;
+    margin-top: 10px;
+
+}
+#accept{
+    float: left;
+    margin-left: 30px;
+    
+    padding: 10px;
+    border: 1px solid grey;
+    font-size: 18px;
+    border-radius: 30px;
+    height: 45px;
+    width: 150px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}

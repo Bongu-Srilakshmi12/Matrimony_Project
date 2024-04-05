@@ -9,14 +9,7 @@ function GenHoroscope() {
     <div className='container'>
       <div className='genHoroScope-container'>
         <div className='mul-btns'>
-            {/* <div className='rel-horo'>
-                <span>Add Horoscope</span>
-                <span>Horoscope Settings</span>
-                <span>Astromatch</span>
-            </div>
-            <div className='edit-prof'>
-                <span>Edit profile</span>
-            </div> */}
+           
         </div>
 
         <div className='horo-border-box'>
@@ -37,7 +30,7 @@ function GenHoroscope() {
                   </div>
               </div>
 
-              <div className='form-container'>
+              <div className='form-container-horoscope'>
                 <form>
                   <div className='form-box'>
                     <label className='column'>Date Of Birth</label>

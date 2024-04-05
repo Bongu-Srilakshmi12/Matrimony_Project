@@ -1,13 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* GenHoroscope.css */
 
-}
 .genHoroScope-container{
-    margin: 100px 0px 0px 0px;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .mul-btns{
     display: flex;
@@ -29,15 +24,12 @@
 }
 .edit-prof span{
     color: blue;
-    /* margin: 10px 14px 20px 14px; */
 }
 .horo-border-box{
     border: 1px solid #d1d1d1;
-    /* height: 100vh; */
 }
 .horoscope-btm{
     width: 100%;
-    /* border: 1px solid #d1d1d1; */
     padding: 40px 20px 30px 30px;
     display: grid;
     grid-template-columns: 5fr 6fr;
@@ -68,7 +60,7 @@
 .horo-left-mid span{
     text-align: justify;
 }
-.form-container{
+.form-container-horoscope{
     background: #f1f1f1;
     color: black;
     width: 80%;
@@ -86,7 +78,6 @@
 .form-box label{
     font-weight: 700;
     font-size: 13px;
-    /* font-family: 'Lato'; */
 }
 .form-box .column .time{
     width: 30%;
@@ -140,7 +131,7 @@ form{
     align-items: center;
     overflow: hidden;
     white-space: nowrap;
-    padding: 0 20px; /* Adjust as needed */
+    padding: 0 20px;
   }
 
   .dots {
@@ -170,7 +161,6 @@ form{
     column-gap: 10px;
   }
   .horo-bot h4{
-    /* line-height: 26px; */
     font-size: 17px;
     font-weight: 700;
     padding: 10px;
@@ -201,34 +191,266 @@ form{
 }
 
 /* Horoscope Settings */
-.form-container {
+.form-content {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    font-family: 'Lato', sans-serif; 
+    padding-bottom: 10px;
 }
 
-.form-group {
-    display: flex;
-    align-items: center;
-    width: 100%; 
-}
-
-label {
-    width: 200px; 
+.label {
+    display: block;
+    width: 250px;
+    padding-top: 5px;
+    font-weight: bold;
     font-size: 14px;
-    font-weight: 700;
-    font-family: 'Lato', sans-serif; 
+    text-align: left;
 }
 
-.input-field {
-    width: 350px;
+.input-fields {
+    width: 300px;
+    display: block;
+}
+
+.star {
+    color: #FE7C22;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.selectbox-ui {
+    position: relative;
+    display: block;
+}
+
+.selectbox-ui:before {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    display: block;
+}
+
+.selectbox {
+    width: 260px;
+    height: 38px;
+    background: #ffff;
+    color: #777;
+    border: 1px solid #e0e0e0;
+    appearance: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+select {
+    font: 100% / 1.3 Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+}
+
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    white-space: nowrap;
+}
+
+.selectbox-ui:after {
+    content: " ";
+    border-top: 8px solid #a3a5a5;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    right: 8px;
+    top: 45%;
+    padding: 0;
+    position: absolute;
+    pointer-events: none;
+    display: block;
+}
+
+.clear {
+    clear: both;
+    height: 1px;
+    width: 1px;
+}
+
+.modetory {
+    float: left;
+    padding: 20px;
+    color: #666;
+    font-size: 11px;
+}
+
+.modetory-star {
+    color:#FE7C22 ;
+    font-weight: bold;
+}
+
+.primary-button {
+    float: right;
     padding: 10px;
-    border: 1px solid #ccc;
-    font-size: 8px;
-    flex: 1;
-    font-family: 'Lato', sans-serif;
+}
+
+.primary-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    background: #ff7805;
+    color: #FFF !important;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    vertical-align: middle;
 }
 
 
+/* Astromatch */
+.left-container {
+    margin-left: 100px; 
+    text-align: left; 
+    width: 480px;
+    float: left;
+}
 
+.astromatch {
+    margin-bottom: 10px; 
+}
+
+h1.astromatch {
+    color: #5ca824;
+    font-size: 22px;
+    font-family: Lato;
+    padding-top: 20px;
+    
+}
+
+.dotted {
+    border-bottom: dotted;
+    padding: 7px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.bold-text {
+    color: #393939;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;    
+}
+
+.normal-paragraph {
+    padding-left: 15px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.icon-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px; 
+    color: #FE7C22;
+    font-size: 5px;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 460px;
+}
+
+th {
+    text-align: -webkit-center;
+    vertical-align: middle;
+    width: 107px;
+    background-color: rgb(242, 243, 219);
+}
+
+.subscribe-now {
+    float: right;
+    padding: 10px;
+    margin-bottom: 300px;
+    
+}
+
+.subscribe {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    background: #ff7805;
+    color: #FFF !important;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+
+.contact-information {
+    width: 420px;
+    margin-top: 45px;
+}
+
+.number {
+    color: #000000;
+    width: 200px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 13px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+
+.right-container {
+    /* width: 20%; */
+    float: right;
+    margin-left: 40px;
+    user-select: initial;
+    margin: 0;
+    padding: 0;
+}
+
+.sample-astromatch {
+    width: 210px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #f8f8eb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 420px; 
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.image-background {
+    background-color:#f8f8eb ;
+    padding: 20px;
+    margin-right: 150px;
+}
+
+.image-container {
+    background-color: #f8f8eb;
+}
+
+.sample-img {
+    width: 400px;
+    height: 420px;
+}

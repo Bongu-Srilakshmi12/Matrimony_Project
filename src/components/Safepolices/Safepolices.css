@@ -1,0 +1,147 @@
+/* Safepolices.css */
+
+.polices-head{
+    
+    border: 5px solid #ccc;
+    width: 800px;
+    height: 800px;
+    padding: 30px 10px;
+   
+   
+}
+.polices-contact-heading{
+    display: flex;
+}
+.polices-head-section h4{
+   
+    float: left;
+    text-align: left;
+    align-items: left;
+    padding-left: 30px;
+    margin-top: 10px;
+    font-family: Lato;
+}
+.polices-head-section p{
+    float: left;
+    text-align: left;
+    position: absolute;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: Lato;
+}
+.links{
+    float: right;
+    padding-top: 50px;
+    
+   
+   
+}
+.links-links{
+    /* float: left; */
+    background-color: #eeeeee;
+    /* margin-left: 20px; */
+    width: 750px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.links-cities{
+    color: #0274CB;
+    float:inline-start;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 20px;
+    font-family: Lato;
+    
+}
+.links-cities:hover{
+    text-decoration: underline;
+}
+.polices-contact-left{
+    float: right;
+    margin-left: 80px;
+    font-family: Lato;
+   
+}
+
+hr.new2{
+    width: 500px;
+    margin-left: 10px;
+    border-top: 1px dotted rgba(12, 11, 11, 0.781);
+}
+.polices-contact-left h5{
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: Lato;
+}
+.d1{
+    float:left;
+    float:inline-start;
+    margin-top: 5px;
+    text-align:left ;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: Lato;
+   
+}
+.d2{
+    float: inline-end;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-right: 300px;
+    font-family: Lato;
+}
+.d3{
+    font-size: 14px;
+    margin-left: 10px;
+    font-family: Lato;
+}
+.d4{
+    font-size: 14px;
+    margin-left: 10px;
+    font-family: Lato;
+}
+.cyber-call{
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Lato;
+}
+.d5{
+    font-size: 14px;
+    float:inline-start;
+    margin-top: 5px;
+    text-align:left ;
+    margin-left: 10px;
+    font-family: Lato;
+}
+.d6{
+    font-size: 14px;
+    margin-top: 20px;
+    color: blue;
+    float: inline-start;
+    align-items: left;
+    margin-left: 10px;
+    font-family: Lato;
+
+}
+/* .home-footer{
+    background: #f1f1f1;
+    margin: 0px auto;
+    width: 100%;
+   
+    
+    
+  }
+  .home-footer p{
+    color: rgb(148, 79, 79);
+    
+    font-size: 12px;
+    text-align: center;
+    align-items: left;
+    
+    margin-left: 30px;
+  } */
+  

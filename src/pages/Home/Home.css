@@ -1,0 +1,11 @@
+/* Home.css */
+
+.Home-container{
+    margin-top: 60px;
+}
+.section-part{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    grid-gap: 15px;
+}

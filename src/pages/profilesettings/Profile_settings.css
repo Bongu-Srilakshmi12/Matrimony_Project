@@ -1,0 +1,402 @@
+.settings-container {
+display: flex;
+min-height: 100%;
+width: 1300px;
+margin: 0 auto;
+overflow: auto;
+margin-top: 130px;
+}
+
+.sidebar {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.sidebar-title {
+padding: 16px;
+
+}
+
+
+.content {
+flex-grow: 1;
+padding: 20px;
+}
+
+
+.heading {
+padding-bottom: 16px;
+margin-bottom: 16px;
+border-bottom: 2px dashed #DDDDDD;
+}
+
+.subheading {
+margin-top: 20px;
+margin-bottom: 24px;
+padding-top: 20px;
+}
+
+
+.change-password-button {
+background-color: #FFA500; 
+color: white; 
+padding: 8px 16px;
+font-weight: bold;
+
+&:hover {
+  background-color: #cc8400; /* Darker shade for hover effect */
+}
+}
+
+.password-field {
+flex: 1;
+margin-right: 16px;
+}
+
+.password-field:last-child {
+margin-right: 0; 
+}
+
+.password-label {
+display: block; 
+}
+
+.password-field-group {
+display: flex;
+justify-content: space-between;
+margin-top: 16px;
+}
+
+.change-password-button-container {
+display: flex;
+justify-content: flex-end; /* Aligns the button to the right */
+margin-top: 24px; /* Add some space above the button */
+
+}
+
+.alerts-updates-container {
+display: flex;
+flex-direction: column;
+}
+
+.alerts-updates-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 12px;
+border-bottom: 1px solid #DDDDDD;
+}
+
+.alerts-updates-item:last-child {
+border-bottom: none;
+}
+
+.material-icons {
+color: #757575;
+}
+
+
+/* side_bar.css */
+
+.settings-container {
+display: flex;
+height: 100vh;
+}
+
+.sidebar {
+width: 240px;
+
+}
+
+.title {
+padding: 16px;
+border-bottom: 1px solid #e0e0e0;
+}
+
+.tabs {
+margin-top: 10px;
+}
+
+.tab {
+min-height: 48px;
+color: #757575;
+font-weight: 500;
+text-transform: none;
+}
+
+.tab-selected {
+color: #000;
+background-color: #f0f0f0;
+}
+
+.tabs-indicator {
+background-color: #1976d2;
+}
+
+.content {
+flex-grow: 1;
+padding: 20px;
+}
+
+/* Additional styling for Call Preferences tab */
+.tabpanel {
+padding: 20px;
+}
+
+.form-control {
+margin-top: 20px;
+}
+
+.form-label {
+margin-bottom: 10px;
+}
+
+.radio-group {
+margin-bottom: 20px;
+}
+
+/* You can add more styles as needed */
+
+/* side_bar.css */
+
+.settings-container {
+display: flex;
+font-family: 'Arial', sans-serif; /* This should match your design */
+}
+
+.sidebar {
+width: 240px;
+
+}
+
+.title {
+padding: 16px;
+border-bottom: 1px solid #e0e0e0;
+}
+
+.tabs {
+margin-top: 10px;
+}
+
+
+.tabs .Mui-selected {
+color: #000;
+background-color: #f0f0f0; 
+}
+
+
+.MuiTab-root {
+text-transform: none; 
+}
+
+
+.content {
+flex-grow: 1;
+padding: 20px;
+background-color: #fff;
+}
+
+
+.heading {
+font-size: 1.25rem; 
+margin-bottom: 20px;
+color: #333; 
+border-bottom: 2px dashed #DDDDDD;
+padding-bottom: 16px;
+}
+
+
+.radio-group {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+
+.MuiFormControlLabel-label {
+color: #333; 
+}
+
+
+.submit-button {
+background-color: #FFA500; 
+color: white; 
+padding: 10px 20px; 
+text-transform: none; 
+border: none; 
+cursor: pointer; 
+box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+.submit-button:hover {
+background-color: #cc8400; }
+
+
+
+.input-with-button input {
+flex-grow: 1;
+margin-right: 8px; 
+}
+
+
+h2 {
+margin: 0 0 10px 0;
+}
+
+.preferences {
+display: flex;
+flex-direction: column;
+}
+
+.preference-item {
+display: flex;
+justify-content: space-between;
+margin-bottom: 5px;
+}
+
+.preference-label {
+font-weight: bold;
+margin-right: 10px; 
+}
+
+.preference-value {
+flex-grow: 1;
+}
+
+.edit-button {
+align-self: flex-end;
+margin-top: 10px;
+
+}
+
+.verification-note {
+font-size: 0.9em;
+color: #666;
+margin-bottom: 15px; 
+}
+
+
+/* Privacy.css */
+
+.contact-Number h3 {
+color: rgb(188, 184, 184);
+border-Bottom: 2px dashed #DDDDDD;
+padding-bottom: 5px;
+
+}
+
+.contact-Number{
+padding-left: 10px;
+margin-bottom: 10px;
+}
+
+.input-field {
+display: flex;
+align-items: center;
+margin-bottom: 1rem;
+}
+
+.input-field label {
+margin-right: 2rem;
+flex: 0 0 400px;
+
+}
+
+#country {
+width: auto;
+}
+
+.input-field select,
+.input-field input[type="text"] {
+padding: 0.2rem;
+font-size: 1rem;
+}
+
+.contact-preferences h3 {
+color: rgb(188, 184, 184);
+border-Bottom: 2px dashed #DDDDDD;
+padding-bottom: 5px;
+width: 100%;
+
+}
+
+.privacy-settings {
+margin: 0 auto;
+padding: 20px;
+border: 1px solid #ccc;
+}
+
+.option {
+margin-bottom: 15px;
+}
+
+.option input[type="radio"] {
+margin-right: 10px;
+}
+
+.option label {
+font-weight: bold;
+}
+
+.recommended {
+background-color: yellow;
+padding: 2px 4px;
+font-size: 0.8rem;
+margin-left: 10px;
+}
+
+.description {
+margin-left: 30px;
+color: #969696;
+font-size: 0.9rem;
+}
+
+.sms-notifications {
+font-family: Arial, sans-serif;
+color: black;
+margin-top: 0px ;
+padding-top: 0px;
+margin: 0 auto;
+}
+
+.sms-notifications ul {
+list-style: none;
+padding: 0;
+margin: 0;
+color: black;
+}
+
+.sms-notifications ul li {
+padding-left: 20px;
+margin-bottom: 5px;
+color: black;
+}
+
+.sms-notifications ul li:before {
+content: '▸'; 
+
+left: 0;
+top: 0;
+color: black;
+}
+
+.note {
+
+font-size: 0.9rem;
+border-bottom: #a7a6a6 dashed 1px;
+padding-bottom: 15px;
+font-weight: bold;
+color: black;
+}
+
+.small {
+color: black;
+font-size: 0.8rem;
+}
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+
+
+.image-container{
+    height: 458px;
+    width: 998px;
+    margin-top: 150px;
+    margin-left: 260px;
+    background-image: url("https://imgs.bharatmatrimony.com/bmimgs/inter-phadd-bg-f.jpg");
+
+}
+
+.upload-img{
+    width: 684px;
+    height: 365px;
+    background-color:white;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 265px;
+
+
+}
+
+.header-img{
+    width: 684px;
+    height: 94px;
+    font-style: italic;
+    color:#50ad2b;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.profile-image {
+    display: flex;
+    position: relative;
+}
+  
+.profile {
+    width: 124px; 
+    height: 180px; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left:110px;
+    
+    display: flex;
+
+}
+  
+#file-upload {
+    display: none;
+}
+  
+.upload-button {
+    margin-top: 50px;
+    /* width: 100px; */
+    height: 50px;
+    cursor: pointer;
+    padding: 10px ;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 60px;
+   
+}
+  
+.upload-button:hover {
+    background-color: orange;
+}
+
+.uploading-sizing{
+    margin-left: 280px;
+    margin-top: 110px;
+    position: absolute;
+    line-height: 14px;
+    font-size: 12px;
+    color: #999999;
+
+}
+
+/* #footer  */
+
+.women-saftey{
+display: flex;
+height: 110px;
+width: 1000px;
+background-color: rgb(252, 238, 239);
+margin-left: 260px;
+margin-top: 15px;
+border-radius: 8px;
+}
+
+.image-women{
+    margin-left: 150px;
+    margin-top: 12px;
+    width: 83px;
+    height: 85px;
+}
+
+.safty-text{
+    
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    line-height: 20px;
+    color: #000000;
+    width: 565px;
+    padding: 15px 0 0 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

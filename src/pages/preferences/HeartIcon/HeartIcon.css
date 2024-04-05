@@ -1,0 +1,14 @@
+/* HeartIcon.css */
+
+.heart-icon {
+    color: white; /* Set the color of the icon */
+    margin-right: 2px;/* Adjust spacing to match your layout */
+    padding-left: 4px;
+  }
+  
+  /* When the icon is active/highlighted */
+  .heart-icon.active {
+    color: #FF69B4; /* Or any other color you prefer */
+    /* Add other styles like size or shadows if needed */
+  }
+  

@@ -1,0 +1,378 @@
+.userdetails{
+    margin-left: 160px;
+    
+}
+
+.headingseting{
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+
+  .userimages {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap; 
+  }
+  
+  .userimages img {
+    border: 1px solid gray;
+    max-width: 122px;
+    height: 122px;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  
+.profilecard{
+    /* margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 5px   ;
+    box-shadow: 3px ; */
+    width: 1000px;
+    height: 416px;
+
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px #00000029;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profileimage{
+    height: 368px;
+    width: auto;
+}
+
+.fav{
+    display: flex;
+    margin-left: 470px;
+
+}
+
+.fav span{
+    padding-left: 15px;
+}
+
+.main-profie{
+  margin-left: 20px;
+  padding-bottom: 10px;
+  
+}
+
+.main-profie span{
+  margin-bottom: 10px;
+}
+
+.profile-design{
+  background-color:lightskyblue;
+  color: white;
+  border-radius: 5px;
+  margin-right: 10px;
+  
+}
+
+.like{
+  border-top: 1px solid grey;
+  padding-top: 20px;
+  margin-top: 70px;
+  display: flex;
+  margin-left: 20px;
+}
+
+.like span{
+  font: size 14px; 
+    font-family: Lato !important;
+    font-weight: 700 !important;
+}
+
+.show-intrest{
+  margin-left: 10px;
+  font-family: lato;
+  border-radius: 100px;
+  border-width: 1px !important;
+  border-style: solid;
+  border-color: var(button-tertiary-border);
+  height: 32px;
+  width: 124px;
+  background: transparent !important;
+}
+
+.send-intrest{
+  margin-left: 10px;
+  font-family: lato;
+  border-radius: 100px;
+  border-width: 1px !important;
+  border-style: solid;
+  border-color: var(button-tertiary-border);
+  height: 32px;
+  width: 124px;
+  background-color: orangered !important;
+  color: white;
+ 
+}
+
+.like-one{
+  margin-left: 20px;
+}
+
+.secon-card{
+  margin-left: 160px;
+  padding: 20px;
+  display: flex;
+  
+  
+}
+.bio-design{
+  width: 50%;
+  margin-left: 160px;
+  margin-bottom: 3%;
+  /* margin-right: 400px; */
+  box-shadow: 0 3px 6px #00000029;
+  border-radius: 10px;
+  margin-top: 5opx;
+  
+}
+.about-profile{
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-top: 40px;
+
+}
+
+.profile-description{
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: justify;
+  padding-right: 40px;
+}
+
+.profie-verification{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.verify-id{
+  margin-left: 20px;
+  display: flex;
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+.verify-id img{
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 50px;
+  height: 60px;
+  
+
+ 
+}
+
+.person-info{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+/* .main-two-profile sn{
+  padding-right:50px ;
+  text-align: left;
+  
+} */
+
+.profile-habits{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+ margin-top: 20px;
+}
+
+.profile-habits span{
+  margin: 15px 30px 20px 20px;
+}
+
+.details-setting{
+/* margin-left: 50px; */
+text-align: right;
+
+}
+
+ 
+.person-design-one{
+  width: 150px;
+  
+}
+
+.about-design-one{
+  background-color:rgb(172, 128, 172);
+  color: white;
+  border-radius: 5px;
+  
+  /* margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 30px;
+  height: 24px;
+  width: 24px; */
+ 
+}
+
+
+.contact-card{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-width: 1px !important;
+  border-style: ridge;
+  border-color: grey;
+  border-radius: 5px;
+  padding:2% ;
+
+
+}
+
+.contact-number{
+  margin-left: 2%; 
+ 
+}
+
+.caller-iconss{
+  background-color:rgb(172, 128, 172);
+  color: white;
+  border-radius: 5px;
+
+}
+
+.call-nows{
+  margin-left: 45px;
+}
+
+.contact-connect{
+  font-family: lato;
+  border-radius: 100px;
+  border-width: 1px !important;
+  border-style: solid;
+  border-color: var(button-tertiary-border);
+  height: 32px;
+  width: 124px;
+  background: transparent !important;
+  color: orangered;
+}
+
+.premium-paid{
+  margin-left: 10%;
+}
+
+.become-member{
+  font-family: Lato;
+  border-radius: 100px;
+  border-width: 1px !important;
+  border-style: solid;
+  border-color: orangered;
+  height: 32px;
+  width: 120px;
+  background-color: orangered !important;
+  color: white;
+}
+
+.about-design-two{
+  background-color:rgb(96, 98, 165);
+  color: white;
+  border-radius: 5px;
+}
+
+.about-design-three{
+
+  background-color:rgb(194, 111, 111);
+  color: white;
+  border-radius: 5px;
+}
+
+.about-design-four{
+  background-color:rgb(111, 194, 187);
+  color: white;
+  border-radius: 5px;
+  
+}
+
+.details-setting-profile{
+
+  text-align: left;
+  width: 180px;
+
+}
+
+
+.person-design-five{
+  width: 200px;
+}
+
+.person-info-five{
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 360px;
+}
+
+/* footer */
+
+.foot-design{
+  height: 365px;
+  /* background-color: #eb445a; 235, 68, 90 */
+  background-color: rgb(252, 238, 239);
+  padding-top: 25px;
+  
+
+}
+
+
+
+.footer-header{
+  margin-top: 25px;
+  margin-left: 20px;
+  
+}
+
+.footer-header a{
+  color: #eb445a;
+  text-decoration: none;
+}
+
+.footer-paragraph{
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.userimages-footer{
+  display: flex;
+  gap: 20px; 
+  flex-wrap: wrap; 
+  margin-left: 25px;
+
+}
+
+.userimages-footer img{
+  border: 1px solid gray;
+  max-width: 122px;
+  height: 122px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.footer-button{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: lato;
+  border-radius: 5px;
+  border-color: #eb445a;
+  height: 32px;
+  width: 124px;
+  background-color: #eb445a;
+  color: white;
+  margin-bottom: 2%;
+}
+
+
+

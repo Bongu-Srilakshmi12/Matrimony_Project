@@ -1,0 +1,129 @@
+
+
+  .sidebar-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    list-style: none;
+    padding-left: 30px;
+    font-weight: bold;
+    color: white;
+    }
+
+
+  
+  /* App.css */
+.row {
+    min-height: 100vh; 
+    font-family: lato;
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: space-between; 
+    align-items: stretch;
+  }
+  
+  .col-md-3, .col-md-9 {
+    flex: 1; 
+  }
+  
+  
+  
+  .bg-green {
+    background-color: #008060; 
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+  }
+  
+  .sidebar-logo {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 20px; 
+    margin-top: 20px;
+  }
+  
+  .sidebar-logo h2 {
+    margin-left: 10px; 
+    font-size: 1rem; 
+    font-weight: bold; 
+    white-space: nowrap; 
+    margin-top: 20px;
+  }
+
+  .col-md-9 {
+    
+    padding-left: 30px;
+    font-family: lato;
+   }
+
+   .col-md-9 p {
+    
+    font-size: 20px;
+    padding: 3px;
+    padding-left: 30px;
+   }
+
+  .preference-item {
+    border-bottom: 1px solid #ddd; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin-left: 120px;
+    justify-content: space-between;
+    padding-top: 2px; 
+    padding-bottom: 2px; 
+    margin-bottom: 2px;
+
+  }
+  
+  .preference-item span {
+    margin-bottom: 2px; 
+    font-size: 20px;
+  }
+
+
+
+  .container {
+    width: 1200px;
+    max-width: none;
+    margin-top: 130px;
+   
+  }
+
+  .col-md-9 h3{
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+   
+  .col-md-9 h2{
+    font-weight: bold;
+    padding: 20px; 
+    background-color: #fff; 
+ 
+  }
+
+  .edit-icon {
+    width: 20px; 
+    height: auto;
+    cursor: pointer;
+    float: right; 
+    margin-left: auto;
+  }
+
+  .document-icon {
+    width: 100px; 
+    height: auto;
+    margin-right: 20px; 
+    vertical-align: middle; 
+    padding-left: 30px;
+  }
+  
+  .Main h3 {
+    margin-bottom: 5px; 
+  }
+  
+
+  
+  
+  
+  

@@ -1,0 +1,192 @@
+.homeRightComp-container{
+    width: 100%;
+}
+.journey-so-far h5{
+    margin-bottom: 25px;
+}
+.journey-so-far-boxes{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 3;
+}
+.journey-so-far-boxes a{
+    text-decoration: none;
+    color: #000000;
+}
+.journey-so-far-boxes .journey-box{
+    width: 180px;
+    height: 100px;
+    background-color: #D7EFF3;
+    border-radius: 12px;
+    padding-left: 5px;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    margin-right: 20px;
+}
+.journey-box p{
+    font-size: small;
+    line-height: normal;
+}
+.journey-box h6{
+    font-size: 16px;
+}
+.journey-box img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.journey-so-far-boxes #box2{
+    background-color: #E5EBF6;
+
+}
+.journey-so-far-boxes #box3{
+    background-color: #F7E2E0;
+}
+.journey-so-far-boxes #box4{
+    background-color: #F3E8F5;
+}
+.recommendations{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.recommendations h5{
+    margin-bottom: 25px;
+}
+.recommendations .recommendations-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    flex-grow: 8;
+   /* align-content: center; */
+    /* width: 100%; */
+    
+}
+ .see-all-btn{
+    border: none;
+    background: transparent;
+    color: #E06506;
+    font-size: 14px;
+    font-family: lato;
+    font-weight: 500;
+    text-align: center;
+}
+.recommendations .see-all-btn .right-icon{
+    vertical-align: middle;
+    font-size: 16px;
+}
+.recommendations .recommendations-container div{
+    width: 150px;
+    height: 160px;
+    position: relative;
+    margin-right: 20px;
+}
+.recommendations .recommendations-container img{
+    width: 100%;
+    height: 160px;
+    border-radius: 16px;
+    opacity: 0.8;
+
+}
+.recommendations .recommendations-container .content-of-image {
+    position: absolute;
+    bottom:0;
+    top: 85px;
+    padding: 10px;    
+}
+.recommendations .recommendations-container .content-of-image p{
+    line-height: 0.4;
+    color: #ffffff;
+    font-size: 14px;
+}
+.all-matches-head{
+    line-height:0.3;
+}
+.all-matches-container{
+    display: flex;
+}
+
+.all-matches-container .all-matches-box{
+    width: 160px;
+    height: 120px;
+    border-radius: 20px;
+    line-height: normal;
+    margin-right: 15px;
+}
+.all-matches-container .all-matches-box img{
+    width: 100%;
+    height: 120px;
+    border-radius: 20px;
+    /* object-fit: cover; */
+}
+.all-matches-box .head{
+    font-size: 14px;
+    font-weight: 500;
+}
+.all-matches-box .age{
+    font-size: 12px;
+}
+.new-matches{
+    margin-top: 100px;
+}
+.awaiting-response{
+    margin-top: 100px;
+}
+
+.awaiting-response-container{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-gap: 20px;
+}
+.awaiting-response-container .container1{
+    width: 100%;
+    padding: 16px;
+    margin: 5px 5px 5px 2px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.awaiting-response-container .container1 img{
+    width: 100%;
+    object-fit: contain;
+    object-position: 50% 50%;
+    border-radius: 16px;
+}
+.container1 .container1-body{
+    margin-top: 15px;
+}
+.container1 .container1-body h6,p{
+    line-height:normal;
+}
+.container1 .container1-body p{
+    font-size: 12px;
+}
+.container1-footer .dont-show-btn{
+    margin-top: 10px;
+    background: transparent;
+    color: gray;
+    border: 1px solid #777777;
+    letter-spacing: 0.1px;
+    border-radius: 100px;
+    padding: 6px 16px 6px 16px;
+    align-items: center;
+    font-family: lato;
+}
+.container1-footer .dont-show-btn .closeIcon{
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.container1-footer .send-interest-btn{
+    margin-top: 10px;
+    background: #f58320;
+    color: #ffffff;
+    border: 1px solid #f58320;
+    letter-spacing: 0.1px;
+    border-radius: 100px;
+    padding: 6px 16px 6px 16px;
+    align-items: center;
+    font-weight: bold;
+}
+.container1-footer .send-interest-btn .checkIcon{
+    vertical-align: middle;
+    margin-right: 5px;
+}

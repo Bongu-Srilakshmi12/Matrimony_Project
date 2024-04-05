@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* AddPartner.css */
 .addpartner-container{
     width: 230px;
     height: 120px;
@@ -11,7 +7,6 @@
     border: 1px solid #e7e7e7;
     display: grid;
     grid-template-columns: 30% 70%;
-    /* box-shadow: 0px 0px 4px 0px rgb(141, 124, 124); */
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
 }

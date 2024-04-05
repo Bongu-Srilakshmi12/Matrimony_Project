@@ -1,5 +1,8 @@
 import React from 'react'
-import MatchesComp from '../../components/Matches/MatchesComp'
+import './MatchesPage.css';
+import MatchesComp from '../../components/Matches/MatchesComp';
+import FilterProfile from '../../components/Matches/FilterProfile';
+import MatchesProfile from '../../components/Matches/MatchesProfile';
 
 function MatchesPage() {
   return (
@@ -7,7 +10,23 @@ function MatchesPage() {
       <div className='matchespage-container'>
         <MatchesComp/>
 
-        <div></div>
+        <section>
+          <div className='matches-grid'>
+            <div className='matches-grid-left'>
+              <FilterProfile/>
+            </div>
+            
+            <div className='matches-grid-right'>
+              <MatchesProfile/>
+              <MatchesProfile/>
+              <MatchesProfile/>
+              <MatchesProfile/>
+              <MatchesProfile/>
+              <MatchesProfile/>
+              <MatchesProfile/>
+            </div>
+          </div>
+        </section>
 
       </div>
     </div>
