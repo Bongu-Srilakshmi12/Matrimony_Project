@@ -28,7 +28,7 @@ function CardWithImageOverlay() {
           
           <img src={profileImage ? profileImage : "https://img.freepik.com/premium-photo/anime-girl-with-red-hair-white-hat-snow-generative-ai_900396-62862.jpg?w=740"} alt="Profile" className="profile" />
           <label htmlFor="file-upload" className="upload-button">Upload Image</label> <br />
-          <input id="file-upload" type="file" onChange={handleImageUpload} accept="image/*" />
+          <input id="file-upload" type="file" onChange={handleImageUpload} />
           <span className='uploading-sizing'> Within 15 MB of size  jpg / gif / png / bmp </span> 
 
         </div>
