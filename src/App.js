@@ -48,9 +48,9 @@ function App() {
         <Route path='safeMatrimony' element={<Safematrimoney/>}/>
         <Route path='/userdetails' element={<Userdetails/>}/>
         <Route path='/Help' element={<BasicTabs/>}/>
-        {/* <Route path='/Faq' element={<CustomizedAccordions/>}/>
-        <Route path='/premium' element={<PricingCard/>}/> */}
-        {/* <Route path='/premium/packages' element={<Packages/>}/> */}
+        <Route path='/Faq' element={<CustomizedAccordions/>}/>
+        <Route path='/premium' element={<PricingCard/>}/> 
+        <Route path='/premium/packages' element={<Packages/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>  
