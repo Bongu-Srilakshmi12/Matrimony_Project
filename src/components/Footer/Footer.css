@@ -125,5 +125,8 @@
     display: flex;
     
   }
-  
+  .about-logo img{
+    width: 40px;
+    height: 25px;
+  }
   

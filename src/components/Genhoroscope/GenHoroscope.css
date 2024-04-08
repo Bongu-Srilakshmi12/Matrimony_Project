@@ -312,6 +312,11 @@ option {
 
 
 /* Astromatch */
+.astromatch-horo-container{
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    overflow-x: hidden;
+}
 .left-container {
     margin-left: 100px; 
     text-align: left; 
@@ -420,11 +425,11 @@ th {
 
 .right-container {
     /* width: 20%; */
-    float: right;
+    /* float: right; */
     margin-left: 40px;
-    user-select: initial;
-    margin: 0;
-    padding: 0;
+    /* user-select: initial; */
+    /* margin: 0;
+    padding: 0; */
 }
 
 .sample-astromatch {
@@ -443,7 +448,7 @@ th {
 .image-background {
     background-color:#f8f8eb ;
     padding: 20px;
-    margin-right: 150px;
+    /* margin-right: 150px; */
 }
 
 .image-container {

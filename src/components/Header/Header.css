@@ -17,8 +17,29 @@
     margin-bottom: 100px;
 }
 .logo img{
-    width: 180px;
-    height: 60px;
+    width: 90px;
+    height: 58px;
+    /* position: relative; */
+}
+/* .logo-matchmate{
+    position: absolute;
+    top: 2px;
+    left: 180px;
+    letter-spacing: normal;
+    color: #5B2C6F;
+    width: 100px;
+} */
+#matchmate-logo{
+    font-size: 26px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-style: italic;
+    color: #512E5F ;
+    /* filter: drop-shadow(10px 10px 10px #1B4F72); */
+    /* text-transform: uppercase; */
 }
 .header-nav-links span{
     padding-right: 30px;
@@ -60,7 +81,19 @@
 }
 
 
-
+/* Profile */
+.dropdown-content .profile-container{
+    width: 20%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 3px #00000029;;
+    border-radius: 10px;
+    padding-top: 15px;
+    /* margin: 100px 0px 0px 50px; */
+    border: 1px solid #cccccc;
+    margin-top: 80px;
+}
 
 
 

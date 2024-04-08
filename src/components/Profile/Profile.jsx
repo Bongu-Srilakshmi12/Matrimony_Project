@@ -17,7 +17,7 @@ const Profile = () => {
     <div className='profile-container'>
       <div className='profile-info'>
             <div><AccountCircleIcon className='profile-icon'/>
-                <div className='cam-div'><CameraAltOutlinedIcon className='cam-icon'/></div>
+                {/* <div className='cam-div'><CameraAltOutlinedIcon className='cam-icon'/></div> */}
             </div>
             <div className='profile-content'>
                     <span id='zone'>Good Afternoon!</span>

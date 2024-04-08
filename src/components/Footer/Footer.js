@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import './Footer.css';
-import logo from '../../images/logo1.jpg';
+import logo from '../../images/matchmate.jpeg';
 
 
 const Footer = () => (
@@ -12,7 +12,7 @@ const Footer = () => (
     <div className='about-logo'><img src={logo} alt="logo" className="logo_about" />
       <h3>About Us</h3></div>
         <p>
-          SindhiMatrimony is a part of BharatMatrimony - the pioneers of online matrimony service. Today, we are the most trusted Matrimony website by Brand Trust Report. Millions of happy marriages happened and continue to happen through BharathMatrimony. we have been featured in the Limca book of records for the highest number of documented marriages online. besides internet, We also have a strong offline presence across india with over <a href="140+ matrimony branches!">140+ matrimony branches!</a>. Bharath matrimony is the first group to offer 100% mobiles verifies profiles, reinforcing the trust that members have on us. we have also pioneered the highly personalized matchmaking services - Assisted services and EliteMatrimony. Our <a href="#purpose">purpose</a> is to build a better Bharat through happy marriages.
+          Matchmate is a part of BharatMatrimony - the pioneers of online matrimony service. Today, we are the most trusted Matrimony website by Brand Trust Report. Millions of happy marriages happened and continue to happen through BharathMatrimony. we have been featured in the Limca book of records for the highest number of documented marriages online. besides internet, We also have a strong offline presence across india with over <a href="140+ matrimony branches!">140+ matrimony branches!</a>. Bharath matrimony is the first group to offer 100% mobiles verifies profiles, reinforcing the trust that members have on us. we have also pioneered the highly personalized matchmaking services - Assisted services and EliteMatrimony. Our <a href="#purpose">purpose</a> is to build a better Bharat through happy marriages.
         </p>
       </div>
     <div className="second_column">

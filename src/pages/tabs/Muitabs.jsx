@@ -79,7 +79,7 @@ const Muitabs = () => {
                     <p>The Horoscope Match settings are used for horoscope compatibility.</p>
                     <h4>Given below are your current Horoscope Match settings:</h4>
                     <div className='settings-form'>
-                        <form className="form-container">
+                        <form className="form-container-horo">
                             <div className="form-content">
                                 <div className="label">
                                     Star Check
@@ -155,6 +155,7 @@ const Muitabs = () => {
         </div>
     </TabPanel>
     <TabPanel value={activeTab} index={2}>
+        <div className='astromatch-horo-container'>
         <div className="left-container">
             <h1 className='astromatch'>Astromatch</h1>
             <p className='dotted'></p>
@@ -202,6 +203,7 @@ const Muitabs = () => {
                     <img src="https://img.freepik.com/free-vector/bifold-brochure-text-icons_1284-45154.jpg?w=740&t=st=1711006762~exp=1711007362~hmac=39fc8ae97d0301a120a42dc2da75019ebfc9b70432564c00cd8aa1f4d5b52a4c" alt=""  className='sample-img'  />
                 </div>
             </div>
+        </div>
         </div>
     </TabPanel>
 
