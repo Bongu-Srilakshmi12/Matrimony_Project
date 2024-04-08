@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Matrimony_Project/static/css/main.e082257e.css",
+    "main.js": "/Matrimony_Project/static/js/main.1784e863.js",
+    "static/js/453.1880f60c.chunk.js": "/Matrimony_Project/static/js/453.1880f60c.chunk.js",
+    "static/media/men11.jpg": "/Matrimony_Project/static/media/men11.c6fdbcbbf6f948f2a67d.jpg",
+    "static/media/men9.jpg": "/Matrimony_Project/static/media/men9.ab67ff27744b03088b14.jpg",
+    "static/media/men14.jpg": "/Matrimony_Project/static/media/men14.9526fc518a39128c763d.jpg",
+    "static/media/men2.jpg": "/Matrimony_Project/static/media/men2.ff3cae21ecc62698b6f6.jpg",
+    "static/media/men10.jpg": "/Matrimony_Project/static/media/men10.f63422dbdbe138d37f8a.jpg",
+    "static/media/men8.jpg": "/Matrimony_Project/static/media/men8.1406425b70adfdc97235.jpg",
+    "static/media/men6.jpg": "/Matrimony_Project/static/media/men6.3e04892d3386e0830970.jpg",
+    "static/media/horoscope.jpg": "/Matrimony_Project/static/media/horoscope.88c31ed1fa36bf6f8ece.jpg",
+    "static/media/logo1.jpg": "/Matrimony_Project/static/media/logo1.c10041eb94fa2b7a784f.jpg",
+    "static/media/men4.jpg": "/Matrimony_Project/static/media/men4.41be1b161b000f97e643.jpg",
+    "static/media/men7.jpg": "/Matrimony_Project/static/media/men7.4f414ddd7c6acfed5e65.jpg",
+    "static/media/safematrimony.jpg": "/Matrimony_Project/static/media/safematrimony.42923888584aea8f52ba.jpg",
+    "static/media/men12.jpeg": "/Matrimony_Project/static/media/men12.b1c9d7f3fdad6f90fec5.jpeg",
+    "static/media/men13.jpeg": "/Matrimony_Project/static/media/men13.4a2bb50c06beb05ddd3c.jpeg",
+    "index.html": "/Matrimony_Project/index.html",
+    "main.e082257e.css.map": "/Matrimony_Project/static/css/main.e082257e.css.map",
+    "main.1784e863.js.map": "/Matrimony_Project/static/js/main.1784e863.js.map",
+    "453.1880f60c.chunk.js.map": "/Matrimony_Project/static/js/453.1880f60c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e082257e.css",
+    "static/js/main.1784e863.js"
+  ]
+}
