@@ -37,7 +37,7 @@ function CardWithImageOverlay() {
     </div>
     <div className='women-saftey'>
         <div className="image-women">
-        <img src="https://imgs.bharatmatrimony.com/bmimgs/syspop-imgs/fs-payment-img.png" alt="" />
+        <img src="https://imgs.Matchmate.com/bmimgs/syspop-imgs/fs-payment-img.png" alt="" />
         </div>
         <div className="safty-text">
         <p>When it comes to your safety, we are #AsCaringAsFamily. You can always control who’ll be able to view your photos!</p>

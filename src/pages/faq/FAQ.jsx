@@ -59,7 +59,7 @@ export default function CustomizedAccordions() {
       <p className="line1">Need help in your partner search?<br /></p>
         Please go through our frequently asked questions. If you still can't find your answers,
         please feel free to contact us 24 x 7 or call us. You can also write to us at 
-        <a href=" mailto:helpdesk@bharatmatrimony.com" className="faq-email"> helpdesk@bharatmatrimony.com</a>
+        <a href=" mailto:helpdesk@Matchmate.com" className="faq-email"> helpdesk@Matchmate.com</a>
       </p>
       <div>
       <div className="column_container">
@@ -73,7 +73,7 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          <p>Login to <a href="www.sindhimatrimony.com" className="faq-email">www.sindhimatrimony.com</a> <br/>
+          <p>Login to <a href="www.Matchmate.com" className="faq-email">www.Matchmate.com</a> <br/>
           You can choose to register either as a free member or as a paid member.</p><br/>
           <div className='registration'>Free registration<br/></div>
           <p>Provide name, age, gender, e-mail ID.<br/>
@@ -115,7 +115,7 @@ export default function CustomizedAccordions() {
         <AccordionDetails>
           <Typography>
             <div className='Question'>Can I fill a single form and get registered in all the regional sites?</div>
-            <div className='Answer'>Just fill in a single registration form and you will appear across all BharatMatrimony domains. You can also search and contact prospects from other domains.</div>
+            <div className='Answer'>Just fill in a single registration form and you will appear across all Matchmate domains. You can also search and contact prospects from other domains.</div>
             <div className='Question'>Can I register on behalf of someone else?</div>
             <div className='Answer'>Yes, you can register on behalf of someone else.</div>
             <div className='Question'>Can I register for my sister/brother and myself with the same Matrimony ID?</div>
@@ -167,7 +167,7 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          BharatMatrimony is the world's only site to display 100% verified mobile numbers. So, unless you verify your mobile number, you cannot use our service. The verification process is done free of cost. Only paid members can view your mobile number and you will also get to know the members who have viewed your mobile number.
+          Matchmate is the world's only site to display 100% verified mobile numbers. So, unless you verify your mobile number, you cannot use our service. The verification process is done free of cost. Only paid members can view your mobile number and you will also get to know the members who have viewed your mobile number.
             </Typography>
         </AccordionDetails>
       </Accordion>
@@ -334,7 +334,7 @@ export default function CustomizedAccordions() {
       <h3 className="heading">MEMBERSHIPS</h3>
      <Accordion expanded={expanded === 'panel58'} onChange={handleChange('panel58')}>
         <AccordionSummary aria-controls="panel58d-content" id="panel58d-header">
-          <Typography style={{ color: "#0EA2E1" }}>What is BharatMatrimony Personalised Matchmaking services?</Typography>
+          <Typography style={{ color: "#0EA2E1" }}>What is Matchmate Personalised Matchmaking services?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -349,7 +349,7 @@ export default function CustomizedAccordions() {
         <AccordionDetails>
           <Typography>
           Benefits of free member<br/>Send an automated message to another member with 'Express Interest'.<br/>
-          Respond to personalised messages and chat from paid members.<br/><br/>Benefits of paid member<br/>You can send personalised e-mails to members you like instead of sending Express Interest.<br/>BharatMatrimony has an instant messenger where you can initiate chat with prospects you are interested in and have a conversation instantly.<br/>You can protect your photo, video and horoscope with a password.<br/>You can view the contact details of the referees.<br/>You can view the contact number of members you like.<br/>You can contact any one from millions of members across the 15 regional portals.
+          Respond to personalised messages and chat from paid members.<br/><br/>Benefits of paid member<br/>You can send personalised e-mails to members you like instead of sending Express Interest.<br/>Matchmate has an instant messenger where you can initiate chat with prospects you are interested in and have a conversation instantly.<br/>You can protect your photo, video and horoscope with a password.<br/>You can view the contact details of the referees.<br/>You can view the contact number of members you like.<br/>You can contact any one from millions of members across the 15 regional portals.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -442,7 +442,7 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          You can make online payments through credit card/debit card/net banking, pay at banks, BharatMatrimony offices, Payment Associates and Easy Payment facilities.<br/>Online payment is the easiest, fastest and secured mode of payment. Our payment gateway provider adopts the SSL (Secure Socket Layer) technology, an internationally proven widely accepted technology that ensures highest level of security while transacting on the net, preventing unauthorised access.<br/>You can also send in the payment to any of our offices, located nearest to your place, through cash, cheque or DD/MO. Payments should be sent in the local currency only. We also have a payment collection at doorstep facility in select cities, at no extra charge.
+          You can make online payments through credit card/debit card/net banking, pay at banks, Matchmate offices, Payment Associates and Easy Payment facilities.<br/>Online payment is the easiest, fastest and secured mode of payment. Our payment gateway provider adopts the SSL (Secure Socket Layer) technology, an internationally proven widely accepted technology that ensures highest level of security while transacting on the net, preventing unauthorised access.<br/>You can also send in the payment to any of our offices, located nearest to your place, through cash, cheque or DD/MO. Payments should be sent in the local currency only. We also have a payment collection at doorstep facility in select cities, at no extra charge.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -482,7 +482,7 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Most easy payment requests are cleared within 48 hours of the requests. Please contact our branch offices if your request is not cleared within 48 hours or contact <a href=" mailto:helpdesk@bharatmatrimony.com" className="faq-email">helpdesk@bharatmatrimony.com</a> with your easy payment request number for us to process your request immediately.
+          Most easy payment requests are cleared within 48 hours of the requests. Please contact our branch offices if your request is not cleared within 48 hours or contact <a href=" mailto:helpdesk@Matchmate.com" className="faq-email">helpdesk@Matchmate.com</a> with your easy payment request number for us to process your request immediately.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -492,7 +492,7 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          You can send a cheque/DD/MO along with your Matrimony ID to any of our addresses. Please send cheques in the local currency of the office to which it is sent. <a href=" mailto:helpdesk@bharatmatrimony.com" className="faq-email">Click here for addresses.</a>
+          You can send a cheque/DD/MO along with your Matrimony ID to any of our addresses. Please send cheques in the local currency of the office to which it is sent. <a href=" mailto:helpdesk@Matchmate.com" className="faq-email">Click here for addresses.</a>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -512,7 +512,7 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          We will upgrade your profile once we receive your payment. If you have made the payment and your profile is still not upgraded, kindly contact our <a href=" mailto:helpdesk@bharatmatrimony.com" className="faq-email">branch office</a> or send an e-mail to <a href=" mailto:helpdesk@bharatmatrimony.com" className="faq-email">helpdesk@bharatmatrimony.com</a>along with your payment details.
+          We will upgrade your profile once we receive your payment. If you have made the payment and your profile is still not upgraded, kindly contact our <a href=" mailto:helpdesk@Matchmate.com" className="faq-email">branch office</a> or send an e-mail to <a href=" mailto:helpdesk@Matchmate.com" className="faq-email">helpdesk@Matchmate.com</a>along with your payment details.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -572,7 +572,7 @@ export default function CustomizedAccordions() {
             <div className='Answer'>Move the cursor and select the image of your face within the square as much as you wish.<br/>
             Add a caption to the photo. It can have a maximum of 100 characters with spaces.</div>
             <div className='Question'>What are the other ways to add photos?</div>
-            <div className='Answer'>E-mail your photo to photo@bharatmatrimony.com indicating your Matrimony ID and Password.<br/>
+            <div className='Answer'>E-mail your photo to photo@Matchmate.com indicating your Matrimony ID and Password.<br/>
             Post your photo to any of our offices across the world with your Matrimony ID and Password.<br/>
             We will upload your photo to your profile free of cost.</div>
             <div className='Question'>What is photo validation process?</div>
@@ -593,7 +593,7 @@ export default function CustomizedAccordions() {
             Click on the Edit Photo link under Enhance My Profile heading.<br/>
             In the Edit Photo page, below the photo you want to delete is a delete link. Click on the delete link to delete the photo.</div>
             <div className='Question'>What is photo security?</div>
-            <div className='Answer'>This is a feature by which each photo will have a BharatMatrimony watermark image.<br/>
+            <div className='Answer'>This is a feature by which each photo will have a Matchmate watermark image.<br/>
             This helps to protect the photo and hence the photo cannot be copied or tampered with.</div>
             <div className='Question'>What is request photo?</div>
             <div className='Answer'>This feature helps you to send a request to a member to add his/her photo if he/she has not added one.</div>
@@ -611,7 +611,7 @@ export default function CustomizedAccordions() {
             <div className='Question'>Generate a horoscope</div>
             <div className='Answer'>Login using your Matrimony/e-mail ID and Password.<br/>Click on Add Horoscope link in My Tools section.<br/>Click on Generate Horoscope link.<br/>It will take one minute to generate your horoscope online by completing the form that is provided to you.<br/>You can generate your horoscope online for free in nine different languages (English, Tamil, Telugu, Kannada, Malayalam, Gujarati, Marathi, Hindi, and Bengali) and four formats.</div>
             <div className='Question'>What are the other ways to add horoscopes?</div>
-            <div className='Answer'>E-mail your horoscope to <a href=" mailto:helpdesk@bharatmatrimony.com" className="faq-email"> horoscope@bharatmatrimony.com </a> with your Matrimony ID and Password.<br/>Post your horoscope to any of our offices across the world with your Matrimony ID and Password.<br/>We will upload your horoscope to your profile free of cost.</div>
+            <div className='Answer'>E-mail your horoscope to <a href=" mailto:helpdesk@Matchmate.com" className="faq-email"> horoscope@Matchmate.com </a> with your Matrimony ID and Password.<br/>Post your horoscope to any of our offices across the world with your Matrimony ID and Password.<br/>We will upload your horoscope to your profile free of cost.</div>
             <div className='Question'>What is horoscope validation?</div>
             <div className='Answer'>Every horoscope posted on our website will go through 24 hours of validation that involves a manual screening.Only after the horoscope is validated will it be available for all members to see</div>
             <div className='Question'>How do I protect my horoscope?</div>
@@ -641,8 +641,8 @@ export default function CustomizedAccordions() {
         <AccordionDetails>
           <Typography>
             <div className='Question'>What is a Trust Badge?</div>
-            <div className='Answer'>Trust Badge adds credibility to your profile. BharatMatrimony cross-verifies the documents you upload with the details provided in your profile. This authenticates your profile and activates your Trust Badge. This gives your profile the value it deserves.<br/><br/>
-            <a href=" mailto:helpdesk@bharatmatrimony.com" className="faq-email">Get the Trust Badge! Give your profile credibility! Get more responses!</a></div>
+            <div className='Answer'>Trust Badge adds credibility to your profile. Matchmate cross-verifies the documents you upload with the details provided in your profile. This authenticates your profile and activates your Trust Badge. This gives your profile the value it deserves.<br/><br/>
+            <a href=" mailto:helpdesk@Matchmate.com" className="faq-email">Get the Trust Badge! Give your profile credibility! Get more responses!</a></div>
             <div className='Question'>What are the types of Trust Badges and how do I get them?</div>
             <div className='Answer'>Get your Trust Badge in few easy clicks. Just upload a copy of the required document and your trust badge is activated.<br/><br/>
             <strong>There are four types of Trust Badges :</strong>
@@ -661,10 +661,10 @@ export default function CustomizedAccordions() {
               <strong>Profile Badge -</strong> Please upload a selfie copying the gesture shown to activate this badge. For NRI's, upload a selfie with your location turned on.
             </li>
           </ul>
-          <a href=" mailto:helpdesk@bharatmatrimony.com" className="faq-email">Go ahead, get them all! More Badges = More responses from prospects!</a>
+          <a href=" mailto:helpdesk@Matchmate.com" className="faq-email">Go ahead, get them all! More Badges = More responses from prospects!</a>
             </div>
             <div className='Question'>How is your document validated?</div>
-            <div className='Answer'>When you upload a document to activate your Trust Badge, BharatMatrimony will cross verify the details with those provided in your profile. Please be assured that your uploaded document will not be displayed to your prospects. They will only know that you have uploaded a copy of your document.</div>
+            <div className='Answer'>When you upload a document to activate your Trust Badge, Matchmate will cross verify the details with those provided in your profile. Please be assured that your uploaded document will not be displayed to your prospects. They will only know that you have uploaded a copy of your document.</div>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -705,7 +705,7 @@ export default function CustomizedAccordions() {
             <div className='Question'>How will I get alerts?</div>
             <div className='Answer'>You will receive alerts from us through e-mail and SMS. If you wish to unsubscribe to any of the alerts, please deselect the alert.</div>
             <div className='Question'>What is mail alert?</div>
-            <div className='Answer'>The alerts from us through e-mail are mail alerts. You will get two types of mail alerts - Daily MatchWatch and weekly Photo MatchWatch. Besides those you will also get products and feature promotions. In addition to the above mailers, you will receive e-mail notifications whenever a member sends you an Express Interest or a Personalised Message and also when a member accepts or declines your Express Interest or Personalised Message. The moment you delete your profile from BharatMatrimony you will stop receiving all alerts.</div>
+            <div className='Answer'>The alerts from us through e-mail are mail alerts. You will get two types of mail alerts - Daily MatchWatch and weekly Photo MatchWatch. Besides those you will also get products and feature promotions. In addition to the above mailers, you will receive e-mail notifications whenever a member sends you an Express Interest or a Personalised Message and also when a member accepts or declines your Express Interest or Personalised Message. The moment you delete your profile from Matchmate you will stop receiving all alerts.</div>
             <div className='Question'>How to Manage Mail alerts?</div>
             <div className='Answer'>Login using your Matrimony ID/E-mail ID and Password.<br/>Click on the Edit Profile link in the top navigation of the My Home section.<br/>In the Edit Profile page Click Manage Mail alerts link. You can select the mail alerts you wish to receive.</div>
             <div className='Question'>What is MatchWatch?</div>
@@ -763,7 +763,7 @@ This link is provided in case you wish to temporarily put your partner search on
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Here are the Do's and Don'ts while creating your profile to give members the best portrayal of yourself.<br/><br/><strong>Do's</strong><br/>While creating a matrimonial profile, give brief information about yourself in the profile description part. Try your best to touch upon various aspects of your life like:<br/>Your personality (what kind of a person you are, your likes and dislikes).<br/>Your educational and professional background including your achievements.<br/>Your family (how many members, family values - conservative or modern).<br/>Your career plans.<br/>Your expectations from your soul mate.<br/>Add a recent photograph to improve chances of getting responses.<br/>Our repeated suggestion: Profiles with photos have 10 times better chances of getting proposals.<br/><br/><strong>Don'ts</strong><br/>Please do not give a lengthy description. Try to keep your description short and complete and do not get into the minutest details.<br/>Please do not try to display your contact details in your matrimonial profile, except in the space provided for contact details.<br/>Do not include content that is vulgar or racist.<br/>Also see our terms of use/service agreement for more details of what type of content is prohibited on https://www.bharatmatrimony.com<br/>Not conforming to any of the above can lead to your profile being rejected.            
+          Here are the Do's and Don'ts while creating your profile to give members the best portrayal of yourself.<br/><br/><strong>Do's</strong><br/>While creating a matrimonial profile, give brief information about yourself in the profile description part. Try your best to touch upon various aspects of your life like:<br/>Your personality (what kind of a person you are, your likes and dislikes).<br/>Your educational and professional background including your achievements.<br/>Your family (how many members, family values - conservative or modern).<br/>Your career plans.<br/>Your expectations from your soul mate.<br/>Add a recent photograph to improve chances of getting responses.<br/>Our repeated suggestion: Profiles with photos have 10 times better chances of getting proposals.<br/><br/><strong>Don'ts</strong><br/>Please do not give a lengthy description. Try to keep your description short and complete and do not get into the minutest details.<br/>Please do not try to display your contact details in your matrimonial profile, except in the space provided for contact details.<br/>Do not include content that is vulgar or racist.<br/>Also see our terms of use/service agreement for more details of what type of content is prohibited on https://www.Matchmate.com<br/>Not conforming to any of the above can lead to your profile being rejected.            
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -794,7 +794,7 @@ This link is provided in case you wish to temporarily put your partner search on
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          A Matrimony ID is a unique combination of an alphabet and a six-or seven-digit number (e.g. A123456). To identify you uniquely, a Matrimony ID is assigned to you when you register with us. This Matrimony ID is to be referred in all correspondences with BharatMatrimony.com.
+          A Matrimony ID is a unique combination of an alphabet and a six-or seven-digit number (e.g. A123456). To identify you uniquely, a Matrimony ID is assigned to you when you register with us. This Matrimony ID is to be referred in all correspondences with Matchmate.com.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -880,7 +880,7 @@ This link is provided in case you wish to temporarily put your partner search on
         <AccordionDetails>
           <Typography>
           <div className='Question'>How do I send personalised messages to a member who has accepted my interest?</div>
-            <div className='Answer'>You can send personalised messages to a member who has accepted your interest by upgrading your membership to a Gold/Diamond/Platinum/Assisted membership.<a href=" mailto:helpdesk@bharatmatrimony.com" className="faq-email">Click here to upgrade your profile to Gold/Diamond/Platinum/Assisted membership now.</a></div>
+            <div className='Answer'>You can send personalised messages to a member who has accepted your interest by upgrading your membership to a Gold/Diamond/Platinum/Assisted membership.<a href=" mailto:helpdesk@Matchmate.com" className="faq-email">Click here to upgrade your profile to Gold/Diamond/Platinum/Assisted membership now.</a></div>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -926,7 +926,7 @@ This link is provided in case you wish to temporarily put your partner search on
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          <a href=" mailto:helpdesk@bharatmatrimony.com" className="faq-email">Log into www.sindhimatrimony.com</a><br/>Click 24 x 7 Help link at the top right hand corner.<br/>You can get your queries answered instantly through a chat session with our live helpdesk executives.<br/>You can also call our hotlines : 0-814-499-8877, 24 hrs a day-7 days a week.<br/>Click Contact us link to find out about our worldwide offices and other contact details.
+          <a href=" mailto:helpdesk@Matchmate.com" className="faq-email">Log into www.Matchmate.com</a><br/>Click 24 x 7 Help link at the top right hand corner.<br/>You can get your queries answered instantly through a chat session with our live helpdesk executives.<br/>You can also call our hotlines : 0-814-499-8877, 24 hrs a day-7 days a week.<br/>Click Contact us link to find out about our worldwide offices and other contact details.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -936,7 +936,7 @@ This link is provided in case you wish to temporarily put your partner search on
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          BharatMatrimony is eager to help you find your partner at the earliest. Our customer care team will be pleased to assist you anytime you have a query. You can contact our customer care team in one of the following ways:<br/>Helpline numbers - 0-814-499-8877<br/>Chat live - BharatMatrimony.com works round the clock to ensure you get the help needed whenever you need it.
+          Matchmate is eager to help you find your partner at the earliest. Our customer care team will be pleased to assist you anytime you have a query. You can contact our customer care team in one of the following ways:<br/>Helpline numbers - 0-814-499-8877<br/>Chat live - Matchmate.com works round the clock to ensure you get the help needed whenever you need it.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -946,7 +946,7 @@ This link is provided in case you wish to temporarily put your partner search on
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          If you are looking for dating/friendship other than matrimony, you are probably looking into the wrong site! BharatMatrimony.com provides only matrimony-related services. Our site only invites people who are looking forward to a serious commitment of getting married.
+          If you are looking for dating/friendship other than matrimony, you are probably looking into the wrong site! Matchmate.com provides only matrimony-related services. Our site only invites people who are looking forward to a serious commitment of getting married.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -956,7 +956,7 @@ This link is provided in case you wish to temporarily put your partner search on
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          If your marriage has been arranged through our service and you want to share your success story with us, then <a href=" mailto:helpdesk@bharatmatrimony.com" className="faq-email">Click here </a> to add it onto our site. Your success story is a motivation to us as well as our members. So please do add your story and marriage photograph to our list of success stories.
+          If your marriage has been arranged through our service and you want to share your success story with us, then <a href=" mailto:helpdesk@Matchmate.com" className="faq-email">Click here </a> to add it onto our site. Your success story is a motivation to us as well as our members. So please do add your story and marriage photograph to our list of success stories.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -1016,7 +1016,7 @@ This link is provided in case you wish to temporarily put your partner search on
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          It is a link that is added in the footer of all pages. It is a feature that educates you about your privacy in BharatMatrimony.com. Four options of the Safety Tips link are Privacy Features, Verification Services, General safety Rules and Report Violation. The feature makes you understand how you can have a safe and secure partner search.
+          It is a link that is added in the footer of all pages. It is a feature that educates you about your privacy in Matchmate.com. Four options of the Safety Tips link are Privacy Features, Verification Services, General safety Rules and Report Violation. The feature makes you understand how you can have a safe and secure partner search.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -1026,7 +1026,7 @@ This link is provided in case you wish to temporarily put your partner search on
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          Auto renewal is a process where your paid account gets automatically renewed on the date of expiry of your account. In BharatMatrimony, auto renewal process is being followed for all the international customers and this auto renewal is done with your consent only.<br/>You will be intimated about this charging, a week before and a link in the intimation mailer will be sent to switch off the auto renewal option.<br/>If you wish to cancel the payment and get a refund you have to use the link available in the payment upgrade confirmation mailer, which will prompt you to log into your account. On providing the login details, the payment will be automatically refunded and your upgrade option will be cancelled.<br/><br/><strong>Note:</strong>To cancel the payment you should not use/should not have used our services.
+          Auto renewal is a process where your paid account gets automatically renewed on the date of expiry of your account. In Matchmate, auto renewal process is being followed for all the international customers and this auto renewal is done with your consent only.<br/>You will be intimated about this charging, a week before and a link in the intimation mailer will be sent to switch off the auto renewal option.<br/>If you wish to cancel the payment and get a refund you have to use the link available in the payment upgrade confirmation mailer, which will prompt you to log into your account. On providing the login details, the payment will be automatically refunded and your upgrade option will be cancelled.<br/><br/><strong>Note:</strong>To cancel the payment you should not use/should not have used our services.
           </Typography>
         </AccordionDetails>
       </Accordion>
