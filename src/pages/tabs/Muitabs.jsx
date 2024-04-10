@@ -22,53 +22,14 @@ const Muitabs = () => {
     const[activeTab,setActiveTab] = useState(0);
   return(
     <div>
-        <AppBar position='static' sx={{marginTop : '140px', width: '80%', alignItems:'center',
-            backgroundColor: "#f1f1f1", color:'white'}}>
-        <Tabs value={activeTab} 
-        onChange={(event,newValue)=>setActiveTab(newValue)} 
-       sx={{
-            width: '80%',
-            color: 'gray',
-            fontWeight: 600,
-        }}
-       >
-            <Tab label='Add Horoscope'
-            sx={{
-                border:'1px solid gray',
-                backgroundColor: "#f1f1f1",
-                marginRight:'6px',
-                '&:hover':{
-                    background:'#ffffff',
-                    color:'green',
-                    fontWeight:'600',
-                    textDecoration:'none',
-                }
-            }}
-            />
-            <Tab label='Horoscope Settings'  sx={{
-                border:'1px solid gray',
-                backgroundColor: "#f1f1f1",
-                marginRight:'6px',
-                '&:hover':{
-                    background:'#ffffff',
-                    color:'green',
-                    fontWeight:'600',
-                    textDecoration:'none',
-                }
-            }}/>
-            <Tab label='AstroMatch'  sx={{
-                border:'1px solid gray',
-                backgroundColor: "#f1f1f1",
-                marginRight:'6px',
-                '&:hover':{
-                    background:'#ffffff',
-                    color:'green',
-                    fontWeight:'600',
-                    textDecoration:'none',
-                }
-            }}/>
-        </Tabs>
-    </AppBar>
+        <AppBar position='static' sx={{ marginTop: '140px', width: '80%', alignItems: 'center', color: 'white', backgroundColor: 'transparent',boxShadow:'none' }}>
+    <Tabs value={activeTab} onChange={(event, newValue) => setActiveTab(newValue)} sx={{ width: '80%', color: 'gray', fontWeight: 600 }}>
+        <Tab label='Add Horoscope' sx={{ border: '1px solid gray', marginRight: '6px', '&:hover': { background: '#ffffff', color: 'green', fontWeight: '600', textDecoration: 'none' } }} />
+        <Tab label='Horoscope Settings' sx={{ border: '1px solid gray', marginRight: '6px', '&:hover': { background: '#ffffff', color: 'green', fontWeight: '600', textDecoration: 'none' } }} />
+        <Tab label='AstroMatch' sx={{ border: '1px solid gray', marginRight: '6px', '&:hover': { background: '#ffffff', color: 'green', fontWeight: '600', textDecoration: 'none' } }} />
+    </Tabs>
+</AppBar>
+
     <TabPanel value={activeTab} index={0}>
         <GenHoroscope/>
     </TabPanel>
