@@ -117,7 +117,7 @@ export default function CustomizedAccordions() {
             <div className='Question'>Can I fill a single form and get registered in all the regional sites?</div>
             <div className='Answer'>Just fill in a single registration form and you will appear across all Matchmate domains. You can also search and contact prospects from other domains.</div>
             <div className='Question'>Can I register on behalf of someone else?</div>
-            <div className='Answer'>Yes, you can register on behalf of someone else</div>
+            <div className='Answer'>Yes, you can register on behalf of someone else.</div>
             <div className='Question'>Can I register for my sister/brother and myself with the same Matrimony ID?</div>
             <div className='Answer'>A Matrimony ID identifies each person uniquely. Please register separate profiles for you and your sibling for individual partner searches.</div>
             <div className='Question'>Can I register for my friend, relative or sibling?</div>
