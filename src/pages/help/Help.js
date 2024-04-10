@@ -86,7 +86,7 @@ export default function BasicTabs() {
       
       <div className="contact-content">
         <div className="contact-info">
-          <p>BharatMatrimony is eager to help you find your partner at the earliest. Our customer service team will be pleased to assist you anytime you have a query. You can contact our customer service team in one of the following ways.</p>
+          <p>Matchmate is eager to help you find your partner at the earliest. Our customer service team will be pleased to assist you anytime you have a query. You can contact our customer service team in one of the following ways.</p>
           <h2>Helpline Numbers</h2>
           <div className="helpline">
                 
@@ -143,7 +143,7 @@ export default function BasicTabs() {
       <CustomTabPanel value={value} index={1}>
       <Box className="business-enquiries-container">
   <Typography >
-    If you're interested in partnering with BharatMatrimony.com, the Leader in Online Matrimony and the Most Visited Matrimony Portal by Indians world over, please fill the form below.
+    If you're interested in partnering with Matchmate.com, the Leader in Online Matrimony and the Most Visited Matrimony Portal by Indians world over, please fill the form below.
   </Typography>
   <div className="dotted-line"></div>
 
@@ -179,7 +179,7 @@ export default function BasicTabs() {
             </Button>
             <div>
               <h4 style={{ marginTop: " 15px"}}>FOR MORE DETAILS, CONTACT</h4>
-              <span>E-mail: <a href=" mailto:helpdesk@bharatmatrimony.com" className="faq-email">partnership@bharatmatrimony.com</a></span>
+              <span>E-mail: <a href=" mailto:helpdesk@Matchmate.com" className="faq-email">partnership@Matchmate.com</a></span>
             </div>
           </Grid>
           </Grid>
@@ -262,7 +262,7 @@ export default function BasicTabs() {
       <CustomTabPanel value={value} index={3}>
 
       <div className="retailStoresPage">
-      <p>BharatMatrimony.com Offices are present in all major cities of India. Globally we are represented in the United States, UAE, Singapore, Australia and in Canada. You may call us or walk into any of our offices in your locality to make payments or for any other assistance related to your partner search.</p>
+      <p>Matchmate.com Offices are present in all major cities of India. Globally we are represented in the United States, UAE, Singapore, Australia and in Canada. You may call us or walk into any of our offices in your locality to make payments or for any other assistance related to your partner search.</p>
 
       <h2>Corporate Office</h2>
       <div className="storeSection">
@@ -272,7 +272,7 @@ export default function BasicTabs() {
         <p>Jumeirah Lake Towers,</p>
         <p>Dubai, United Arab Emirates.</p>
         <p>Phone: +971-525060879</p>
-        <p>Email: dubai@bharatmatrimony.com</p>
+        <p>Email: dubai@Matchmate.com</p>
         
       </div>
       
