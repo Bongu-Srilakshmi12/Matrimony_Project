@@ -11,7 +11,7 @@ function PersonalInfo() {
         {/* About her */}
       <div className='personal'>
         <div className='personal-top'>
-            <span className='heading'>A few words about her</span>
+            <span className='heading-personal'>A few words about her</span>
             <span><button className='edit-btn'><MdOutlineModeEdit/>Edit</button></span>
         </div>
         <div className='about-bottom'>
@@ -24,7 +24,7 @@ function PersonalInfo() {
         {/* Basic Details */}
       <div className='personal'>
         <div className='personal-top'>
-            <span className='heading'>Basic Details</span>
+            <span className='heading-personal'>Basic Details</span>
             <span><button className='edit-btn'><MdOutlineModeEdit/>Edit</button></span>
         </div>
         <div className='about-bottom'>
@@ -55,7 +55,7 @@ function PersonalInfo() {
         {/* Religion Information */}
       <div className='personal'>
         <div className='personal-top'>
-            <span className='heading'>Religion Information</span>
+            <span className='heading-personal'>Religion Information</span>
             <span><button className='edit-btn'><MdOutlineModeEdit/>Edit</button></span>
         </div>
         <div className='info-container'>
@@ -76,7 +76,7 @@ function PersonalInfo() {
       {/* Bride's Location */}
       <div className='personal'>
         <div className='personal-top'>
-            <span className='heading'>Bride's Location</span>
+            <span className='heading-personal'>Bride's Location</span>
             <span><button className='edit-btn'><MdOutlineModeEdit/>Edit</button></span>
         </div>
         <div className='info-container'>
@@ -95,7 +95,7 @@ function PersonalInfo() {
        {/* Professional Information */}
        <div className='personal'>
         <div className='personal-top'>
-            <span className='heading'>Professional Information</span>
+            <span className='heading-personal'>Professional Information</span>
             <span><button className='edit-btn'><MdOutlineModeEdit/>Edit</button></span>
         </div>
         <div className='info-container'>
@@ -115,7 +115,7 @@ function PersonalInfo() {
     {/* Family Details */}
     <div className='personal'>
         <div className='personal-top'>
-            <span className='heading'>Family Details</span>
+            <span className='heading-personal'>Family Details</span>
             <span><button className='edit-btn'><MdOutlineModeEdit/>Edit</button></span>
         </div>
         <div className='info-container'>
@@ -137,7 +137,7 @@ function PersonalInfo() {
        {/* About My Family */}
        <div className='personal'>
         <div className='personal-top'>
-            <span className='heading'>About My Family</span>
+            <span className='heading-personal'>About My Family</span>
             <span><button className='edit-btn'><MdOutlineModeEdit/>Edit</button></span>
         </div>
         <div className='about-bottom'>
@@ -148,7 +148,7 @@ function PersonalInfo() {
     {/* Hobbies and Interests */}
     <div className='personal'>
         <div className='personal-top'>
-            <span className='heading'>Hobbies and Interests</span>
+            <span className='heading-personal'>Hobbies and Interests</span>
             <span><button className='edit-btn'><MdOutlineModeEdit/>Edit</button></span>
         </div>
         <div className='about-bottom'>

@@ -26,10 +26,10 @@
     display: flex;
     justify-content: space-between;
 }
-.heading{
-    font-size: 24px;
+.heading-personal{
+    font-size: 22px;
     font-weight: 500;
-    color: gray;
+    color: #666666;
 }
 .edit-btn{
     background-color: #4063a0;
