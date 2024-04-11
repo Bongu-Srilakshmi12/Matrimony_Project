@@ -4,6 +4,11 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import { AppBar } from '@mui/material';
 import './SuccessStories.css';
+import img19 from '../../images/img7.jpg';
+import img6 from '../../images/img6.jpeg';
+import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
+import { IoStarHalfOutline } from "react-icons/io5";
+import { GiLinkedRings } from "react-icons/gi";
 
 
 
@@ -21,232 +26,192 @@ const SuccessStories = () => {
     const[activeTab,setActiveTab] = useState(0);
   return(
     <div className='success-stories-container'>
-        <AppBar position='static' style={{ 
-            width: 600,
-            height: 'auto',
-            borderRadius: 10 
-            }}
+        <AppBar position='static' 
+            sx={{ marginTop: '140px', alignItems: 'center', color: 'white', backgroundColor: 'transparent',boxShadow:'none',marginLeft:'80px'}}
             >
             <Tabs value={activeTab} 
                 onChange={(event,newValue)=>setActiveTab(newValue)} 
-                style={{
-                    backgroundColor: "#f1f1f1", // Background color for the tabs bar
-                    color: 'gray',
-                    padding: '10px 14px 13px 14px',
-                    fontWeight: 600,
-                    borderRadius: 10                    
+               
+                sx={{ width: '80%', 
+                color: 'blue', 
+                fontWeight: 600,
+                textDecoration:'none',
+                marginLeft:'100px',
+                
+                '& .MuiTab-root': {
+                    backgroundColor: '#f1f1f1',
+                    color:'#3A90D2',
+                    
+                    '&.Mui-selected': {
+                        backgroundColor: '#ffffff',
+                        color: '#000000',
+                        fontWeight: '600',
+                        boxShadow:'2px 4px 2px #f1f1f1',
+                        textDecoration:'none'
+                    }
+                } 
                 }}
         >
-                <Tab label='Success Stories' style={{
-                    backgroundColor: activeTab === 0 ? "#FFFF" : "#f1f1f1", // Active and inactive tab background color
-                    color: activeTab === 0 ? 'black' : 'gray', // Active and inactive tab text color
-                    padding: '10px 14px 13px 14px',
-                    margin: 8,
-                    fontWeight: 600,
-                    borderRadius: 10
-                }}/>
-                <Tab label='Post Your Success Story' style={{
-                    backgroundColor: activeTab === 1 ? "#FFFF" : "#f1f1f1",
-                    color: activeTab === 1 ? 'black' : 'gray',
-                    padding: '10px 14px 13px 14px',
-                    margin: 8,
-                    fontWeight: 600,
-                    borderRadius: 10
-                }}/>
-                <Tab label='Tinies'style={{
-                    backgroundColor: activeTab === 2 ? "#FFFF" : "#f1f1f1",
-                    color: activeTab === 2 ? 'black' : 'gray',
-                    padding: '10px 14px 13px 14px',
-                    margin: 8,
-                    fontWeight: 600,
-                    borderRadius: 10
-                }}/>
+                <Tab label='Success Stories' 
+                sx={{ border: '1px solid #f1f1f1', marginRight: '10px',textDecoration:'none' }}
+                
+                />
+                <Tab label='Post Your Success Story'
+                 sx={{ border: '1px solid #f1f1f1', marginRight: '10px',textDecoration:'none' }}
+                />
+                <Tab label='Tinies'
+                 sx={{ border: '1px solid #f1f1f1', marginRight: '10px',textDecoration:'none' }}
+                />
             </Tabs>
         </AppBar>
         <TabPanel value={activeTab} index={0}>
-            <div className="success-stories">
-                <div className="stories">
-                    <div className="top-cards">
-                        <div className="featured-couple">
-                            <h1 className="couple-heading">Featured Couple</h1>
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1" className='featured-couple-image'  />
-                            </a>
-                            <span className="details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="readmore">Read more</button>
-                        </div>
-                        <div className="right-cards">
-                            <div className="cards">
-                                <a href="#">
-                                    <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                                </a> <br />
-                                <span className="card-details">
-                                    <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                    <p className="couples-names">Jessica & Tony</p>
-                                </span>
-                                <button className="card-readmore">Read more</button>
-                            </div>
-                            <div className="cards">
-                                <a href="#">
-                                    <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                                </a> <br />
-                                <span className="card-details">
-                                    <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                    <p className="couples-names">Jessica & Tony</p>
-                                </span>
-                                <button className="card-readmore">Read more</button>
-                            </div>
-                            <div className="cards">
-                                <a href="#">
-                                    <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                                </a> <br />
-                                <span className="card-details">
-                                    <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                    <p className="couples-names">Jessica & Tony</p>
-                                </span>
-                                <button className="card-readmore">Read more</button>
-                            </div>
-                            <div className="cards">
-                                <a href="#">
-                                    <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                                </a> <br />
-                                <span className="card-details">
-                                    <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                    <p className="couples-names">Jessica & Tony</p>
-                                </span>
-                                <button className="card-readmore">Read more</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="bottom-card">
-                        <div className="cards">
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                            </a> <br />
-                            <span className="card-details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="card-readmore">Read more</button>
-                        </div>
-                        <div className="cards">
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                            </a> <br />
-                            <span className="card-details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="card-readmore">Read more</button>
-                        </div>
-                        <div className="cards">
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                            </a> <br />
-                            <span className="card-details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="card-readmore">Read more</button>
-                        </div>
-                        <div className="cards">
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                            </a> <br />
-                            <span className="card-details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="card-readmore">Read more</button>
-                        </div>
-                        <div className="cards">
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                            </a> <br />
-                            <span className="card-details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="card-readmore">Read more</button>
-                        </div>
-                        <div className="cards">
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                            </a> <br />
-                            <span className="card-details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="card-readmore">Read more</button>
-                        </div>
-                        <div className="cards">
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                            </a> <br />
-                            <span className="card-details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="card-readmore">Read more</button>
-                        </div>
-                        <div className="cards">
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                            </a> <br />
-                            <span className="card-details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="card-readmore">Read more</button>
-                        </div>
-                        <div className="cards">
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                            </a> <br />
-                            <span className="card-details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="card-readmore">Read more</button>
-                        </div>
-                        <div className="cards">
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                            </a> <br />
-                            <span className="card-details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="card-readmore">Read more</button>
-                        </div>
-                        <div className="cards">
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                            </a> <br />
-                            <span className="card-details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="card-readmore">Read more</button>
-                        </div>
-                        <div className="cards">
-                            <a href="#">
-                                <img src="https://img.freepik.com/premium-photo/wedding-marriage-hindu-couple-together-celebration-love-commitment-ceremony-happy-romance-islamic-with-birde-groom-getting-married-outdoor-tradition-their-culture_590464-180329.jpg?w=740" alt="1"  />
-                            </a> <br />
-                            <span className="card-details">
-                                <a href="#" className="id-date">T3229329 | 2016-12-04</a> <br />
-                                <p className="couples-names">Jessica & Tony</p>
-                            </span>
-                            <button className="card-readmore">Read more</button>
-                        </div>    
+           <div className='success-story-container'>
+                <div className='success-couple-image'>
+                    <img src={img19} alt="Success Couple" />
+                    <div className='opacity'>
+                        <div className='happy-marriages'>Millions of Happy Marriages</div>
                     </div>
                 </div>
-            </div>
+                <div className='success-couple-image-down'>
+                    <div className='conent-success'>
+                        <div className='content-success-box'>
+                            <div><PeopleAltOutlinedIcon className='success-box-icons'/></div>
+                            <p>Millions have found their life partner through our services including our Founder & CEO, Mr. Murugavel.</p>
+                        </div>
+                        <div className='content-success-box'>
+                            <div><IoStarHalfOutline className='success-box-icons'/></div>
+                            <p>We are the only matrimony company to get featured in Limca book of world records for the largest no. of documented marriages online</p>
+                        </div>
+                        <div className='content-success-box'>
+                            <div><GiLinkedRings className='success-box-icons'/></div>
+                            <p>We organise more marriages than anyone else in the world</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h5>Recent Success Stories</h5>
+                    <div className='recent-success-story-container'>
+                        <div className='recent-success-story'>
+                            <div className='grid-story'>
+                                <div className='grid-story-image'>
+                                    <img src={img6} alt="img6" />
+                                </div>
+                                <div className='grid-story-content'>
+                                    <h6>Vamshi Krishna & Lalitha</h6>
+                                    <p>Posted on: 10 Apr 2024</p>
+                                    <p>Thank you Telugu Matrimony</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='recent-success-story'>
+                            <div className='grid-story'>
+                                <div className='grid-story-image'>
+                                    <img src={img6} alt="img6" />
+                                </div>
+                                <div className='grid-story-content'>
+                                    <h6>Vamshi Krishna & Lalitha</h6>
+                                    <p>Posted on: 10 Apr 2024</p>
+                                    <p>Thank you Telugu Matrimony</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='recent-success-story'>
+                            <div className='grid-story'>
+                                <div className='grid-story-image'>
+                                    <img src={img6} alt="img6" />
+                                </div>
+                                <div className='grid-story-content'>
+                                    <h6>Vamshi Krishna & Lalitha</h6>
+                                    <p>Posted on: 10 Apr 2024</p>
+                                    <p>Thank you Telugu Matrimony</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='recent-success-story'>
+                            <div className='grid-story'>
+                                <div className='grid-story-image'>
+                                    <img src={img6} alt="img6" />
+                                </div>
+                                <div className='grid-story-content'>
+                                    <h6>Vamshi Krishna & Lalitha</h6>
+                                    <p>Posted on: 10 Apr 2024</p>
+                                    <p>Thank you Telugu Matrimony</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div className='recent-success-story-container'>
+                        <div className='recent-success-story'>
+                            <div className='grid-story'>
+                                <div className='grid-story-image'>
+                                    <img src={img6} alt="img6" />
+                                </div>
+                                <div className='grid-story-content'>
+                                    <h6>Vamshi Krishna & Lalitha</h6>
+                                    <p>Posted on: 10 Apr 2024</p>
+                                    <p>Thank you Telugu Matrimony</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='recent-success-story'>
+                            <div className='grid-story'>
+                                <div className='grid-story-image'>
+                                    <img src={img6} alt="img6" />
+                                </div>
+                                <div className='grid-story-content'>
+                                    <h6>Vamshi Krishna & Lalitha</h6>
+                                    <p>Posted on: 10 Apr 2024</p>
+                                    <p>Thank you Telugu Matrimony</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='recent-success-story'>
+                            <div className='grid-story'>
+                                <div className='grid-story-image'>
+                                    <img src={img6} alt="img6" />
+                                </div>
+                                <div className='grid-story-content'>
+                                    <h6>Vamshi Krishna & Lalitha</h6>
+                                    <p>Posted on: 10 Apr 2024</p>
+                                    <p>Thank you Telugu Matrimony</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='recent-success-story'>
+                            <div className='grid-story'>
+                                <div className='grid-story-image'>
+                                    <img src={img6} alt="img6" />
+                                </div>
+                                <div className='grid-story-content'>
+                                    <h6>Vamshi Krishna & Lalitha</h6>
+                                    <p>Posted on: 10 Apr 2024</p>
+                                    <p>Thank you Telugu Matrimony</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <div className='view-success-story'>
+                        <button id='view-suceess-btn'>View more success stories</button>
+                    </div>
+
+                </div>
+           </div>
         </TabPanel>
         <TabPanel value={activeTab} index={1}>
+            <div className='post-your-story-contain'>
             <div className="story-description">
                 <p className='description'>Share your success story & Inspire others to find their best match!</p>
                 <p className='dotted'></p>
@@ -616,19 +581,8 @@ const SuccessStories = () => {
                         </div>           
                     </form>
                 </div>
-                
-                {/* <span className='dotteds'></span> */}
-               
-               
-                {/* <div className="success-story-content">
-                    <span className="topics">A good success story should cover this topics</span>
-                </div>
-                <ul className="topics-descriptions">
-                    <li className="topics-content">How you went about your search for a partner</li>  
-                    <li className="topics-content">How you got to know each other's expectations and decided to proceed further.</li> 
-                    <li className="topics-content">How you and your partner met and established contact.</li>  
-                    <li className="topics-content">Your experience of BharatMatrimony.com</li>                                      
-                </ul> */}
+            
+            </div>
             </div>
         </TabPanel>
         <TabPanel value={activeTab} index={2}>

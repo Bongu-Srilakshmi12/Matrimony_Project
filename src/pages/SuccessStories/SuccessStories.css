@@ -1,7 +1,111 @@
 /* Success Stories */
-.success-stories-container{
-    margin-top: 100px;
+.success-story-container{
+    margin: 0px 130px 0px 130px;
+    /* overflow-x: hidden; */
 }
+.success-couple-image{
+    /* width: 100%; */
+    position: relative;
+    
+}
+.success-couple-image img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.success-couple-image .opacity{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    text-align: center;
+}
+.happy-marriages{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-size: 46px;
+    font-weight: 500;
+    color: #ffffff;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.success-couple-image-down{
+    width: 100%;
+    height: 200px;
+    background-color: #FDF2E9;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.success-couple-image-down .conent-success{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.content-success-box{
+    margin: 20px;
+    text-align: center;
+}
+.content-success-box p{
+    width: 250px;
+    font-size: 14px;
+}
+.content-success-box .success-box-icons{
+    font-size: 70px;
+    width: 60px;
+    vertical-align: middle;
+    text-align: center;
+}
+.recent-success-story-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    
+}
+.recent-success-story-container .recent-success-story{
+    border: 1px solid #f1f1f1;
+    padding: 20px;
+    box-shadow: 10px 4px 6px #f1f1f1;
+    margin-bottom: 10px;
+}
+.recent-success-story .grid-story{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    gap: 10px;
+}
+.grid-story-image img{
+    width: 100%;
+    height: 100px;
+}
+.grid-story-content p{
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.view-success-story{
+    text-align: center;
+}
+#view-suceess-btn{
+    background-color: #fff;
+    border: 1px solid #FE7C22;
+    border-radius: 50px;
+    padding: 6px 18px 6px 18px;
+    margin-top: 20px;
+    color: #FE7C22;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
 .stories {
     padding: 10px;
 }
@@ -15,12 +119,11 @@
 .featured-couple {
     background-color: #efeeee;
     width: 360px;
-    float: left;
     padding: 10px;
 }
 
 .couple-heading {
-    float: left;
+    /* float: left; */
     padding-bottom: 15px;
     font-size: 15px;
     font-weight: bold;
@@ -119,9 +222,15 @@
 
 /* Post Your Success story */
 
+/* .post-your-story-contain{
+    border: 1px solid #c1c1c1;
+} */
+
 .story-description {
+    /* margin-left: 100px; */
+    margin-top: 10px;
+    /* border: 1px solid #c1c1c1; */
     margin-left: 100px;
-    margin-top: 40px;
 }
 
 .description {
@@ -355,12 +464,14 @@
 
 .baby-gallery {   
     padding: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 40px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    margin-top: 10px;
     background: #5BBC56;
-    background-size: cover;
-    height: auto;
+    width: 80%;
+    /* background-size: cover; */
+    /* height: auto; */
+    margin-left: 100px;
 }
 
 .baby-top-content {

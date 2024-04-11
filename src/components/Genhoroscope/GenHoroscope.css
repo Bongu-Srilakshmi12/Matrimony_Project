@@ -1,27 +1,10 @@
 /* GenHoroscope.css */
 
-.genHoroScope-container{
-    width: 100%;
-    /* height: 100vh; */
-}
-.mul-btns{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 9px;
-}
-.mul-btns .rel-horo span{
-    background-color: #f1f1f1;
-    color: gray;
-    padding: 10px 14px 13px 14px;
-    margin: 8px;
-    font-weight: 600;
-}
-.mul-btns .rel-horo span:first-child{
-    background-color: #ffffff;
-    color: green;
-    border: 1px solid #dadada;
-    box-shadow: 4px 0 4px rgba(0, 0, 0, 0.5);
-}
+/* .genHoroScope-container{
+    margin: 0px 60px 0px 100px;
+    width: 80%;
+} */
+
 .edit-prof span{
     color: blue;
 }
@@ -33,8 +16,6 @@
     padding: 40px 20px 30px 30px;
     display: grid;
     grid-template-columns: 5fr 6fr;
-    height: 100%;
-
 }
 .horoscope-left h4{
     line-height: 26px;
@@ -191,6 +172,10 @@ form{
 }
 
 /* Horoscope Settings */
+.horo-border-box{
+    margin: 0px 60px 0px 100px;
+    width: 80%;
+}
 .form-content {
     display: flex;
     padding-bottom: 10px;
@@ -313,6 +298,8 @@ option {
 
 /* Astromatch */
 .astromatch-horo-container{
+    margin: 0px 60px 0px 100px;
+    width: 80%;
     display: grid;
     grid-template-columns: 3fr 9fr;
     overflow-x: hidden;

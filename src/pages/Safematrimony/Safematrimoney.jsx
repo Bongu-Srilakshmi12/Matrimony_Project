@@ -23,12 +23,13 @@ function Safematrimoney() {
   return (
     <Card
       sx={{
-        width: "100%",
-        height: "auto",
+        // width: "100%",
+        // height: "auto",
         borderRadius: 8,
         marginTop:'140px',
         marginLeft: "100px", 
-        // marginRight: "auto",
+        marginRight: "100px",
+        marginBottom:'40px',
         // boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)", 
         backgroundColor: "white", 
         // border: "1px solid #e0e0e0" 
@@ -47,8 +48,10 @@ function Safematrimoney() {
                 value="1"
                 sx={{
                   textTransform: "none",
+                  backgroundColor:"#5E5D5D",
+                  color:'#ffffff',
                   "&.Mui-selected": {
-                    backgroundColor:"orange",
+                    backgroundColor:"#f58220",
                     color: "White",
                     fontSize: 14,
                     fontWeight: "bold"
@@ -60,9 +63,11 @@ function Safematrimoney() {
                 value="2"
                 sx={{
                   textTransform: "none",
+                  backgroundColor:"#5E5D5D",
+                  color:'#ffffff',
                   "&.Mui-selected": {
                     color: "white",
-                    backgroundColor:"orange",
+                    backgroundColor:"#f58220",
                     fontSize: 14,
                     fontWeight: "bold"
                   }
@@ -73,9 +78,11 @@ function Safematrimoney() {
                 value="3"
                 sx={{
                   textTransform: "none",
+                  backgroundColor:"#5E5D5D",
+                  color:'#ffffff',
                   "&.Mui-selected": {
                     color: "White",
-                    backgroundColor:"orange",
+                    backgroundColor:"#f58220",
                     fontSize: 14,
                     fontWeight: "bold"
                   }

@@ -1,233 +1,66 @@
 .verify-header{
-    margin-top: 150px;
+    margin-top: 110px;
 }
 .main-header{
-    
-    background-color: rgb(58, 58, 116);
-    padding: 40px;
-    /* margin-left: 40px; */
+    background-color: #1F618D;
+    padding: 40px;  
+}
+.verify-profile-img-contain{
+    display: flex;
+    justify-content: center;
 }
 .main-header img{
     width:140px;
-    height: 140px;
-    margin-left: 540px;
-    
+    height: 140px;  
 }
-.header-box{
-   margin-top: 30px;
-}
-.header-box span{
+
+.header-box-text{
     font-size: 20px;
     color:white;
     font-family: Lato;
     font-weight: bold;
-    margin-top: 60px;
-    margin-left: 480px;
-}
-.main-head{
-   height: 100px;
-   top: 40px;
-   display: flex;
-   
-   
-}
-.bigBox div{
-    /* height: 400px; */
-    margin-top: 20px;
-   
-    
-    border: 1px solid gray;
-    border-radius: 20px;
-    align-items: center;
-        /* width:800px */
-        
-}
-#leftBox{
-    height: 400px;
-    float: left;
-    margin-left: 160px;
-    margin-top: 40px;
-    width: 700px;
-    
-}
-#rightBox{
-    height: 200px;
-    float: right;
-    margin-top: 40px;
-    margin-right: 160px;
-
-}
-#leftBox .text{
-    align-items: baseline;
-}
-#leftBox .text{
-    font-size: 25px;
-    font-weight: bold;
-    /* font-style: normal; */
-    font-weight: normal;
-    /* font: 2em sans-serif; */
-   text-align: center;
-   margin-left: 35px;
-   float: left;
-    
-}
-.text{
-    margin-top: 40px;
-}
-#leftBox p{
-   
-    margin-left: 10px;
-    /* font: 1.2em sans-serif; */
-}
-.para{
-    margin-top: 10px;
-    float: left;
-    font-style: normal;
-}
-#d1{
-    font-size: 15px;
-    margin-top: 30px;
     text-align: center;
-    float: left;
-    margin-left: 40px;
-    border: 2px solid grey;
-    border-radius: 16px;
-    width: 140px;
-    background-color: white;
-}
-
-    
-
-#d2{
-    font-size: 15px;
     margin-top: 30px;
-    text-align: center;
-    float: left;
-    margin-left: 40px;
-    border: 2px solid grey;
-    border-radius: 16px;
-    width: 100px;
-    background-color: white;
 }
-#d1:hover{
-    background-color: green;
+
+.verification-container{
+    /* width: 80%; */
+    margin: 30px 200px 0px 200px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 30px;
 }
-#d2:hover{
-    background-color: green;
-}
-.checkbox{
-    float: left;
-    align-items: left;
+.id-verification{
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 0px #f7f5f5;
     text-align: left;
-    margin-left: -260px;
-    margin-top: 120px;
-        
+    margin-bottom: 40px;
 }
-.type-para{
-    float: right;
-    margin-top: 50px;
-    margin-right: 240px;
-   
-    
-}
-#rightBox .right-text{
-    font-size: 25px;
-    /* font-weight: bold; */
-    font-style: normal;
-    
-    /* font: 2em sans-serif; */
-   text-align: center;
-   margin-left: 35px;
-   float: left;
-    
-}
-.right-text{
-    margin-top: 40px;
-}
-#rightBox p{
-   
-    margin-left: 10px;
-    /* font: 1.2em sans-serif; */
-}
-.right-para{
-    margin-top: 10px;
-    float: left;
-    /* font-style: oblique; */
-}
-#d1-1{
-    font-size: 15px;
-    margin-top: 30px;
-    text-align: center;
-    float: left;
-    margin-left: 80px;
-    border: 2px solid grey;
-    border-radius: 16px;
-    width: 260px;
-    height: 30px;
-    background-color: white;
-}
-#d1-1:hover{
-    background-color: green;
-}
-.right-boxes{
-    float: right;
-    border: 1px solid gray;
-    width: 430px;
-    margin-top: 30px;
-    margin-right: 140px;
+.id-verification button{
+    background: #fff;
+    cursor: pointer;
+    padding: 9px 18px 9px 18px;
     border-radius: 20px;
+    color: #000;
+    border: 2px solid #d4d3d3;
+    margin: 5px 7px 5px 0;
+    font-size: 16px;
+    text-decoration: none;
 }
-#rightBox1{
+input[type="checkbox"]{
+    margin: 10px 10px 0px 0px;
+}
+/* .verification-dividing{
+    display: 'flex';
+    width: '80%';
+    justifyContent: 'space-between';
+} */
 
-    /* border: 1px solid gray; */
-        height: 300px;
-        float: right;
-        align-items: center;
-        margin-top: 40px;
-        margin-right: 180px;
-        /* width: 300px; */
-    
-    
-}
-#rightBox1 .right-text1{
-    /* font-size: 25px; */
-    /* font-weight: bold; */
-    /* font-style: normal; */
-    
-    font-size: 22px;
-   text-align: right;
-   margin-left: 560px;
-   float: left;
-   margin-top: -15px;
 
-    
-}
-.right-text1{
-    margin-top: 40px;
-    /* margin-left: 20px; */
-}
-#rightBox1 p{
-   
-    margin-left: 530px;
-    /* font: 1.2em sans-serif; */
-}
-.right-para1{
-    margin-top: 10px;
-    float: left;
-    /* font-style: oblique; */
-}
-#d1-11{
-    font-size: 15px;
-    margin-top: 30px;
-    text-align: center;
-    float: left;
-    margin-left: 600px;
-    border: 2px solid grey;
-    border-radius: 16px;
-    width: 160px;
-    height: 30px;
-    background-color: white;
-}
-#d1-11:hover{
-    background-color: green;
-}
+
+
+
+
+
