@@ -23,10 +23,25 @@ const Muitabs = () => {
   return(
     <div>
         <AppBar position='static' sx={{ marginTop: '140px', width: '80%', alignItems: 'center', color: 'white', backgroundColor: 'transparent',boxShadow:'none' }}>
-    <Tabs value={activeTab} onChange={(event, newValue) => setActiveTab(newValue)} sx={{ width: '80%', color: 'gray', fontWeight: 600 }}>
-        <Tab label='Add Horoscope' sx={{ border: '1px solid gray', marginRight: '6px', '&:hover': { background: '#ffffff', color: 'green', fontWeight: '600', textDecoration: 'none' } }} />
-        <Tab label='Horoscope Settings' sx={{ border: '1px solid gray', marginRight: '6px', '&:hover': { background: '#ffffff', color: 'green', fontWeight: '600', textDecoration: 'none' } }} />
-        <Tab label='AstroMatch' sx={{ border: '1px solid gray', marginRight: '6px', '&:hover': { background: '#ffffff', color: 'green', fontWeight: '600', textDecoration: 'none' } }} />
+    <Tabs value={activeTab} onChange={(event, newValue) => setActiveTab(newValue)} sx={{ width: '80%', 
+            color: 'gray', 
+            fontWeight: 600,
+            textDecoration:'none',
+            '& .MuiTab-root': {
+                backgroundColor: '#f1f1f1',
+                
+                '&.Mui-selected': {
+                    backgroundColor: '#ffffff',
+                    color: 'green',
+                    fontWeight: '600',
+                    boxShadow:'2px 4px 2px #f1f1f1',
+                    textDecoration:'none'
+                }
+            } 
+            }}>
+        <Tab label='Add Horoscope' sx={{ border: '1px solid #f1f1f1', marginRight: '10px',textDecoration:'none' }} />
+        <Tab label='Horoscope Settings' sx={{ border: '1px solid #f1f1f1', marginRight: '10px',textDecoration:'none' }} />
+        <Tab label='AstroMatch' sx={{ border: '1px solid #f1f1f1', marginRight: '10px',textDecoration:'none' }} />
     </Tabs>
 </AppBar>
 

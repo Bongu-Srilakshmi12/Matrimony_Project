@@ -17,18 +17,11 @@
     margin-bottom: 100px;
 }
 .logo img{
-    width: 90px;
+    width: 60px;
     height: 58px;
-    /* position: relative; */
+
 }
-/* .logo-matchmate{
-    position: absolute;
-    top: 2px;
-    left: 180px;
-    letter-spacing: normal;
-    color: #5B2C6F;
-    width: 100px;
-} */
+
 #matchmate-logo{
     font-size: 26px;
     text-align: center;
@@ -38,8 +31,7 @@
     font-weight: 500;
     font-style: italic;
     color: #512E5F ;
-    /* filter: drop-shadow(10px 10px 10px #1B4F72); */
-    /* text-transform: uppercase; */
+    margin-left: 5px;
 }
 .header-nav-links span{
     padding-right: 30px;

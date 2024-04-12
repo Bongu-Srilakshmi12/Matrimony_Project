@@ -6,11 +6,11 @@ import { PiFolderLockDuotone } from "react-icons/pi";
 
 function GenHoroscope() {
   return (
-    <div className='container'>
+    <div>
       <div className='genHoroScope-container'>
-        <div className='mul-btns'>
+        {/* <div className='mul-btns'>
            
-        </div>
+        </div> */}
 
         <div className='horo-border-box'>
           <div className='horoscope-btm'>
